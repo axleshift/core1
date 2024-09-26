@@ -1,0 +1,1 @@
+import{r as a,n,o as e,p as i}from"./index-DhtKHfTR.js";const c=()=>{a.useState("");const t=n(),o=e.get("RCTSESSION");o===void 0&&t("/"),a.useEffect(()=>{r(),e.remove("RCTSESSION"),t("/")},[]);async function r(){try{await i.post("http://localhost:5050/api/auth/logout",{},{headers:{Authorization:`Bearer ${o}`}})}catch(s){console.error(s)}}return null};export{c as default};
