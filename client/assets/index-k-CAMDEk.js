@@ -1,1 +1,0 @@
-import{r as t,n as s,j as e}from"./index-V85bmeZ7.js";import"./index.es-DHJTnNr1.js";const o=()=>(t.useState([]),s(),t.useEffect(()=>{(async()=>{})()},[]),e.jsx(e.Fragment,{children:"This is a test"}));export{o as default};
