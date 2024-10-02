@@ -1,0 +1,1 @@
+import{r as a,f as i,p as e,w as n}from"./index-vmJi801Z.js";const c=()=>{a.useState("");const t=i(),o=e.get("RCTSESSION");o===void 0&&t("/"),a.useEffect(()=>{r(),e.remove("RCTSESSION"),t("/")},[]);async function r(){try{await n.post("http://localhost:5050/api/auth/logout",{},{headers:{Authorization:`Bearer ${o}`}})}catch(s){console.error(s)}}return null};export{c as default};
