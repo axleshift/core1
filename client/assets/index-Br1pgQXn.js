@@ -1,1 +1,0 @@
-import{r as o,o as s,q as a,v as i}from"./index-DoH_oDec.js";const c=()=>{o.useState("");const e=s(),t=a.get(void 0);t===void 0&&e("/"),o.useEffect(()=>{r(),a.remove(void 0),e("/")},[]);async function r(){try{await i.post("undefined/api/auth/logout",{},{headers:{Authorization:`Bearer ${t}`}})}catch(n){console.error(n)}}return null};export{c as default};
