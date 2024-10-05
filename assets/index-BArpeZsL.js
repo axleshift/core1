@@ -1,1 +1,0 @@
-import{r as t,j as r}from"./react-t0FXqAAQ.js";import"./@fortawesome-DPbZ1s4J.js";import{d as e}from"./react-router-Cj39RNwK.js";import"./core-js-Bohkx0y1.js";import"./prop-types-BwQq7MVh.js";import"./@remix-run-D_05oOQ-.js";const f=()=>(t.useState([]),e(),t.useEffect(()=>{(async()=>{})()},[]),r.jsx(r.Fragment,{children:"This is a test"}));export{f as default};
