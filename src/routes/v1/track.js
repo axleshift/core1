@@ -1,1 +1,85 @@
-const D=f;(function(m,n){const H={m:0x11f,n:')6W*',o:0xcd,p:'FqwA',q:0x111,r:'TEer',s:0x120,t:'^d!$',u:0x11a,v:0xd4,I:'[t1t',J:'ZPsL'},w=f,o=m();while(!![]){try{const p=parseInt(w(H.m,H.n))/0x1+-parseInt(w(H.o,H.p))/0x2+parseInt(w(H.q,H.r))/0x3*(-parseInt(w(H.s,H.t))/0x4)+parseInt(w(H.u,'ms8y'))/0x5+parseInt(w(0x112,'h%pm'))/0x6*(-parseInt(w(H.v,H.I))/0x7)+-parseInt(w(0x115,H.J))/0x8+parseInt(w(0xd6,'uOm&'))/0x9;if(p===n)break;else o['push'](o['shift']());}catch(q){o['push'](o['shift']());}}}(e,0xd89af));function f(a,b){const c=e();return f=function(d,g){d=d-0xba;let h=c[d];if(f['KLZDrv']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='';for(let r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(let v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};const m=function(n,o){let p=[],q=0x0,r,t='';n=i(n);let u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(let v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};f['KWlzuC']=m,a=arguments,f['KLZDrv']=!![];}const j=c[0x0],k=d+j,l=a[k];return!l?(f['jdgwdR']===undefined&&(f['jdgwdR']=!![]),h=f['KWlzuC'](h,g),a[k]=h):h=l,h;},f(a,b);}const d=(function(){let m=!![];return function(n,o){const I={m:0xff},p=m?function(){const x=f;if(o){const q=o[x(I.m,'jJn*')](n,arguments);return o=null,q;}}:function(){};return m=![],p;};}());(function(){const S={m:0x10f,n:0xd3,o:0x11b},R={m:0x113,n:0xd0,o:'!7D[',p:0xca,q:0xc9,r:0x122,s:0xec,t:'vuJ('},y=f,m={'UEAoc':y(0x126,'^d!$'),'mFEWW':function(n,o){return n(o);},'yiEEP':y(S.m,'zr$n'),'FsAgP':function(n,o){return n+o;},'RQBiI':function(n,o){return n+o;},'IQFOG':y(S.n,'7G[J'),'QHPnB':function(n){return n();},'qzIyz':function(n,o,p){return n(o,p);}};m[y(S.o,'yKAJ')](d,this,function(){const z=y,n=new RegExp(m[z(R.m,'ZPsL')]),o=new RegExp(z(R.n,R.o),'i'),p=m[z(0x10e,'PYQI')](c,m[z(R.p,'zr$n')]);!n[z(R.q,'3@tj')](m[z(0xc7,'PYQI')](p,'chain'))||!o[z(0xe2,'!7D[')](m[z(0xdf,'!7D[')](p,m[z(R.r,')*@]')]))?m[z(R.s,R.t)](p,'0'):m['QHPnB'](c);})();}());const b=(function(){const T={m:0x11e,n:'FqwA'};let m=!![];return function(n,o){const p=m?function(){const A=f;if(o){const q=o[A(T.m,T.n)](n,arguments);return o=null,q;}}:function(){};return m=![],p;};}()),a=b(this,function(){const Y={m:0x10d,n:')*@]',o:0x119,p:'d0%5',q:0xfa,r:'iUnl',s:'d$w9',t:0x129,u:'OzEu',v:0xe0,Z:'jJn*',a0:0x114,a1:'HHjn',a2:0xf9,a3:0xed,a4:0xda,a5:'u^A2',a6:0xba,a7:'d0%5',a8:0x10c,a9:'jJn*',aa:'d0%5',ab:0xeb,ac:'7jAd'},B=f,m={'sOUuo':'return\x20(function()\x20','dWZRg':'warn','IvWMb':B(Y.m,'5ajy'),'BbHKS':B(0xe9,Y.n),'CVvrt':'exception','ooLnT':B(Y.o,'vuJ('),'wqNyp':function(q,r){return q<r;}};let n;try{const q=Function(m[B(0x116,'!7D[')]+B(0x10b,Y.p)+');');n=q();}catch(r){n=window;}const o=n[B(Y.q,Y.r)]=n[B(0xd5,Y.s)]||{},p=[B(Y.t,Y.u),m[B(Y.v,'vuJ(')],m[B(0xbf,Y.Z)],m['BbHKS'],m[B(Y.a0,Y.a1)],m[B(Y.a2,'blM0')],B(Y.a3,'^d!$')];for(let s=0x0;m[B(Y.a4,Y.a5)](s,p[B(0xe4,'jJn*')]);s++){const t=b[B(Y.a6,'ycbA')][B(0xbc,Y.a7)]['bind'](b),u=p[s],v=o[u]||t;t[B(Y.a8,Y.a9)]=b[B(0xfd,Y.aa)](b),t[B(0xfe,'iUnl')]=v[B(Y.ab,Y.ac)][B(0xc2,'ycbA')](v),o[u]=t;}});a();function e(){const ai=['W5PFW6JdRSkb','uZhcHxfgW6tdSCkQFsSos8kr','F2aiW7hcVG','W47cK8oiEq','pWhdSaqgW7XhWOe','W4DCWOhcKMS','cb3cGvSjWPCgWPdcKSkykCoTWPO','s0RdQaNcHW','e3lcQ8ouWOK','W7ddMwyuWOlcSCk7W5pcNCk4WRdcUhhdISkGqvZdJ20bwCocW6pdTwadfL8ddxddIg9gb8oYWOmT','kMZcTCo7WPu','W6XYz8kLv8krWQigW40KWQhdQG','q8oYEKOeW5VcOq','W4BcK30Hla','W7ZcRue0ia','WQa0ySobWPush8oaWRWm','lSo8br/cK2RdTCo/b8ohialcGq','WRddQSo5WQO','eCotCeuXW4pcMNldOIldUmk6p8o2WRS1','WORcUsv3','WO5tvCkmW6tdV8oH','WPCpxq','W6VcNGXIW6CLAda7WOnw','WO/cVYvGk0JcU8kzW780oq','qstcJv0dmCojEmoE','W6b5C0dcOhKT','W6yVBSovE8o0aSkudCoJ','ndipWO9m','ew7dNtyaWRNcR8kUtqKIB8kwWRDXvmocC8ofW43cLHddTvFcQCofbGe','WQySB8oqWPeEfCo4','W6RcMaX1','WQ3cISohW4HH','gIukocLe','o2NcTSo/','g0xdLriC','WPm3r8ohWRe','W6OZk8ogymoKeSkU','W5pdMtub','W6jsW7RdV8k5','mKxdMq0N','eZiwmc8','EIVdSSkMW5RcUMxdMZxdRCkaxmoY','W47cQCoIrL/cTCoIjuBdLmk7WPNcNgRcI8ogW4qbya','W5BcV8o5xq','uaqbWQ/dSCocqHRdOmkrxmokW5OjxharWQa1W7yVWPhcQSoYWPRcIIRcUSkJjSotpY3cNq','hfZdU8kyW7JdPmkLW6HTW5FdPCkNWQS0WPi','W4NcHmopBCkcyCozW7yxW7G','W5xcOSoMrLK','d8olWOpcSSkWWRVcOr0ziq','fs8kldjaBW','WRiGnbBdPYTNy8kaW7SijSovW5G','F8oXEa','tSkwlHaqW5lcJhxcRg0','W7L6wCoPpG4','DgNcKmolsW','uSo0C2/dJa','W4nLu8kHW7a','WRtcGb3cLSkPWPpcPJmMC8ogy8k/DSk1WR8/WOdcUmkJW4/dG8kSwG','WP/cHupcOdFcS0W','xN4FW63cMa','W5DQWRNcRgK','WOOlW5VdJJ53qCkPW4hcKmouoa','EeOUW7a','WRe9oSosna','ese2WQvAFa','W7bmxSommq','W5u/WPf3W4zkqvuCAeK','W4mGWPTLW4zDugKjCW','W7xcT8kIW70tW49JW4tcSfO','W5dcJNuufq','drixWRrA','WP5JWRDfW7iIBaC','W557WQBcQvK','a8ouF0uG','WOFcVmoUW4Xj','WPvedSkWWPS','wCkRBg/dKq','WOL+WOfqW7qUzJ8oeq','WRFcNqFcJG','FfOUW6W','ACkQsgldIIJcPCoCemoSjW','W7POW7ldSa','WRZcLSoMf8o/W5FdJSkxACoJW50ycG','W7NcICo/A0a','WQRcOI56oflcUSoAW6i1lCkOWQdcN8opl8kzW64yWPlcL0SOW6y','y8kvAhpdTW','W5u/WPf3W51uuq','W53dPNKRBa3dTSolW4CsbmkIW7lcIW','W57cMCobACky','uZ/cJe0','W4i/WQXWW4brwLe','hdqOWQ5x','vtFcLKG','nXtcTXCzW7TAWPiuW6LEjGRdN3xdTmkcW4CeW7hcVmkCx1i8W5XZamkPgYVcIa','D8korL/dGG','F0OZW6a','W7xcN8oo','W6P9W7/dQmkaca','W4TMW6VdQmkqcq','W6hdJImCWPFcVmoVWOpcHSkUW6dcQw/dGSkTqXG','fgddUZi5','WOzGWOHqW5y','W4hdJILGWRq','sIVdJeOdk8odFmojW4W7iSk0cYi7xSoRW7tdNCkedmkPWQhcTJqHuby3WPiU','iHSOWRbbymkdWR3dPa','W4pcMmomyW','WRGcq8o3WRy','W7jvW5BdJG','W5bsWO3cJxO9r8kaW7BcVSoj','W5NdQxWHBWVcImktW6Gskmkw','W7jDkmkFWO3cGSoaW4lcR30','n0pdTsKt'];e=function(){return ai;};return e();}import g from'dotenv';g['config']();import{ObjectId}from'mongodb';import h from'express';(function(){const a1={m:0xce,n:'7G[J',o:0x102,p:'FW6Q',q:'43QZ',r:0xf4},C=f,m={'ZYIXj':function(o,p){return o(p);},'vwIAx':function(o,p){return o+p;},'mAztf':C(a1.m,a1.n),'zBuLa':C(0x101,'uNuD')};let n;try{const o=m['ZYIXj'](Function,m['vwIAx'](m[C(a1.o,a1.p)],m[C(0xe5,a1.q)])+');');n=o();}catch(p){n=window;}n[C(a1.r,'FW6Q')](c,0x9c4);}());import i from'../../components/logger.js';import j from'../../models/db.js';import k from'../../middleware/auth.js';import l from'../../middleware/recaptcha.js';import{getUser}from'../../components/sessions.js';const router=h[D(0x106,'HHjn')]();router[D(0xd7,'NWM)')]('/:id',k,async(m,n)=>{const a5={m:0xf8,n:0x11d,o:'3@tj',p:0xfc,q:'5ajy',r:'!7D[',s:0xea,t:'jJn*',u:0x127,v:0x104,a6:'5ajy',a7:'ob02',a8:0xf1,a9:0x107,aa:0xc5,ab:0xe7,ac:0x11c,ad:0xf2,ae:'JlWU',af:'cy[K',ag:0xf3,ah:'!7D[',ai:0x10a,aj:0xcf,ak:'7G[J',al:'d0%5',am:0xc1,an:'PYQI',ao:0x118,ap:0xc0,aq:'ZPsL',ar:0x105,as:'HHjn'},E=D,o={'FUPcg':function(p,q){return p(q);},'mgCkj':function(p){return p();},'pVOvt':'freight','TotKV':function(p,q){return p!==q;},'XnnCe':E(a5.m,'TEer'),'PCmKW':E(a5.n,a5.o),'vniCp':'Freight\x20has\x20arrived\x20on\x20our\x20ports\x20in\x20China'};try{const p=await o['FUPcg'](getUser,m[E(a5.p,a5.q)]),q=m['params']['id'];if(!q)return n['status'](0x190)[E(0x103,a5.r)]();const r=await o['mgCkj'](j),s=await r['collection'](o[E(a5.s,a5.t)])[E(a5.u,'TEer')]({'user_id':new ObjectId(p[E(a5.v,a5.a6)]),'_id':new ObjectId(q)})[E(0xde,'YMb9')]();if(!s['length'])return n['status'](0x194)[E(0x125,a5.a7)]();const t=[];t['push']({'date':s[0x0][E(a5.a8,'7jAd')],'description':E(a5.a9,'3@tj')});if(o['TotKV'](s[E(0xd2,a5.q)],s[E(0x123,'PYQI')]))t[E(a5.aa,'FqwA')]({'data':s[0x0][E(a5.ab,'iUnl')],'description':o[E(a5.ac,'FqwA')]});t[E(a5.ad,a5.ae)]({'date':s[0x0][E(0xbe,a5.af)],'description':o[E(0xcb,'ZPsL')]}),t[E(a5.ag,a5.ah)]({'date':s[0x0]['created_at'],'description':o[E(a5.ai,'UxTD')]});const u=[{'lat':37.7749,'lng':-122.4194},{'lat':34.0522,'lng':-118.2437},{'lat':40.7128,'lng':-74.006}];return n['status'](0xc8)[E(a5.aj,a5.ak)]({'events':t,'origin':s[0x0][E(0x100,a5.al)][E(a5.am,a5.an)][E(0xdd,'JlWU')],'destination':s[0x0]['data'][E(a5.ao,'uNuD')][E(a5.ap,a5.aq)],'status':E(0xc8,'cy[K'),'markerPositions':u});}catch(v){i[E(0xcc,'d$w9')](v);}return n[E(a5.ar,a5.as)](0x1f4)['send']();});export default router;function c(m){const ah={m:0xd9,n:'43QZ',o:0xd1,p:0xbd,q:0x117,r:'5ajy'},ag={m:0x121,n:0x110,o:0xef,p:0xc4,q:0xf7,r:0xe3,s:')6W*',t:0xc3,u:0xf0,v:'FW6Q',ah:0xdb,ai:'TX$d',aj:0xee,ak:0x109,al:0x108,am:'ZPsL'},F=D,n={'sozZK':function(p,q){return p===q;},'ybbAU':F(ah.m,ah.n),'MZRZg':F(ah.o,'2VW6'),'cQhTw':F(ah.p,'uOm&'),'lEaUN':function(p,q){return p+q;},'WatLC':function(p,q){return p===q;},'EEiXm':function(p,q){return p%q;},'dyeGS':function(p,q){return p+q;},'KFYhQ':F(ah.q,ah.r),'CdPDu':'gger','yCaTl':'action','lllaV':'stateObject','vfOtI':function(p,q){return p(q);},'wGHEC':function(p,q){return p(q);}};function o(p){const G=F;if(n[G(ag.m,')*@]')](typeof p,n[G(0xdc,'jDPX')]))return function(q){}[G(ag.n,'vuJ(')](n[G(ag.o,'5$QD')])['apply'](n['cQhTw']);else n['lEaUN']('',p/p)[G(ag.p,'d$w9')]!==0x1||n['WatLC'](n[G(ag.q,'7G[J')](p,0x14),0x0)?function(){return!![];}[G(0xbb,'TEer')](n[G(ag.r,ag.s)](n[G(ag.t,'[Djn')],n[G(ag.u,ag.v)]))[G(0xf5,'HHjn')](n[G(0xc6,'ZPsL')]):function(){return![];}[G(0xe6,'iUnl')](n[G(ag.ah,ag.ai)]+'gger')[G(ag.aj,'[Djn')](n[G(ag.ak,'7jAd')]);n[G(ag.al,ag.am)](o,++p);}try{if(m)return o;else n['wGHEC'](o,0x0);}catch(p){}}
+import dotenv from "dotenv";
+dotenv.config();
+import { ObjectId } from "mongodb";
+import express from "express";
+import logger from "../../components/logger.js";
+import database from "../../models/db.js";
+import auth from "../../middleware/auth.js";
+import recaptcha from "../../middleware/recaptcha.js";
+import { getUser } from "../../components/sessions.js";
+
+const router = express.Router();
+
+/*
+  Get tracking status of shipment
+  Url: POST /api/v1/track/:id
+  Params:
+     Shipment Id
+  Header:
+     Authentication
+  Returns:
+     Events
+     Origin
+     Destination
+     Status
+*/
+router.get("/:id", auth, async (req, res) => {
+    try {
+        const theUser = await getUser(req.token);
+        const id = req.params.id;
+        if (!id) return res.status(400).send();
+
+        const db = await database();
+        const items = await db
+            .collection("freight")
+            .find({ user_id: new ObjectId(theUser._id), _id: new ObjectId(id) })
+            .toArray();
+
+        if (!items.length) return res.status(404).send();
+
+        const events = [];
+        events.push({
+            date: items[0].created_at,
+            description: "Freight is placed",
+        });
+        if (items.created_at !== items.updated_at)
+            events.push({
+                data: items[0].updated_at,
+                description: "Freight info was updated",
+            });
+
+        /*-----------------------------------*/
+        /*   THIS IS A TEST                  */
+        /*-----------------------------------*/
+        events.push({
+            date: items[0].created_at,
+            description: "We are preparing to ship your shipment",
+        });
+        events.push({
+            date: items[0].created_at,
+            description: "Freight has arrived on our ports in China",
+        });
+
+        const markerPositions = [
+            // very big bridge?
+            { lat: 37.7749, lng: -122.4194 },
+            // lost angles
+            { lat: 34.0522, lng: -118.2437 },
+            // the concrete jungle hehe
+            { lat: 40.7128, lng: -74.006 },
+        ];
+
+        return res.status(200).json({
+            events: events,
+            origin: items[0].data.shipping.shipping_origin_addresss,
+            destination: items[0].data.shipping.shipping_destination_address,
+            status: "on route",
+            markerPositions: markerPositions,
+        });
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+export default router;

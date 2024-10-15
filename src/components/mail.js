@@ -1,1 +1,105 @@
-const A=f;(function(j,k){const H={j:0x1ac,k:0x16d,l:0x174,m:'O3Z6',n:'FsW(',o:0x182,p:'F0X)',q:0x1af,r:'V4oM',I:0x177,J:'(Z9)'},s=f,l=j();while(!![]){try{const m=-parseInt(s(H.j,'UJUI'))/0x1*(-parseInt(s(H.k,'*zyZ'))/0x2)+-parseInt(s(0x185,'mVBT'))/0x3*(-parseInt(s(H.l,'V4oM'))/0x4)+parseInt(s(0x184,H.m))/0x5+parseInt(s(0x1a4,H.n))/0x6*(-parseInt(s(H.o,'f9K('))/0x7)+-parseInt(s(0x195,H.p))/0x8+parseInt(s(H.q,H.r))/0x9*(-parseInt(s(0x1c8,'$hy1'))/0xa)+-parseInt(s(0x192,'(Z9)'))/0xb*(-parseInt(s(H.I,H.J))/0xc);if(m===k)break;else l['push'](l['shift']());}catch(n){l['push'](l['shift']());}}}(e,0x5b7cd));const d=(function(){let j=!![];return function(k,l){const m=j?function(){const t=f;if(l){const n=l[t(0x170,'tcSs')](k,arguments);return l=null,n;}}:function(){};return j=![],m;};}());(function(){const R={j:0x18d,k:'FaMx',l:0x1d5,m:0x1cb,n:'(b2n'},Q={j:'$hy1',k:'mVBT',l:0x17d,m:0x178,n:'^6Bt',o:'F0X)',p:'A@UQ'},u=f,j={'WfNPh':u(R.j,R.k),'TuqHQ':u(R.l,'hFsP'),'VQVFA':function(k,l){return k(l);},'RwCEA':'init','BFKHW':function(k,l){return k+l;},'KmnkC':u(R.m,'FaMx'),'oDJHL':function(k,l){return k+l;},'kDcup':function(k,l,m){return k(l,m);}};j[u(0x19e,R.n)](d,this,function(){const v=u,k=new RegExp(j[v(0x1b3,Q.j)]),l=new RegExp(j[v(0x196,Q.k)],'i'),m=j['VQVFA'](c,j[v(0x1a5,'1#fj')]);!k[v(0x19f,'O3Z6')](j['BFKHW'](m,j[v(Q.l,'V4oM')]))||!l[v(Q.m,Q.n)](j[v(0x1bc,Q.o)](m,v(0x16b,'FaMx')))?j[v(0x169,Q.p)](m,'0'):c();})();}());const b=(function(){let j=!![];return function(k,l){const m=j?function(){if(l){const n=l['apply'](k,arguments);return l=null,n;}}:function(){};return j=![],m;};}()),a=b(this,function(){const a1={j:0x171,k:0x1b0,l:'sngi',m:'V4oM',n:0x173,o:0x179,p:0x1d4,q:0x1c0,r:0x188,a2:0x17a,a3:'O3Z6',a4:0x1b1,a5:0x187,a6:0x19b,a7:'(Z9)',a8:'4Jmf',a9:0x198,aa:'4vmU',ab:0x1ae,ac:0x18f,ad:'v2)k',ae:0x1a3},a0={j:0x17b,k:'863l',l:0x1c9},w=f,j={'vjmle':function(o,p){return o(p);},'lqmWE':function(o,p){return o+p;},'Ttviv':w(a1.j,'C1Tw'),'mDusJ':w(a1.k,a1.l),'bPxuR':function(o){return o();},'gkYGw':w(0x17c,a1.m),'hiUwu':w(a1.n,'tcSs'),'YtNFp':w(0x175,'Cbry'),'IPdgM':w(a1.o,'tcSs'),'pSbMX':w(a1.p,'PH2%'),'WtMqD':function(o,p){return o<p;}},k=function(){const x=w;let o;try{o=j[x(a0.j,a0.k)](Function,j['lqmWE'](j[x(0x1c2,'aKTI')](j[x(a0.l,a0.k)],j[x(0x1b4,'UJUI')]),');'))();}catch(p){o=window;}return o;},l=j['bPxuR'](k),m=l[w(a1.q,'C1Tw')]=l[w(a1.r,'oW7S')]||{},n=[j['gkYGw'],w(a1.a2,a1.a3),j[w(a1.a4,'f9K(')],w(a1.a5,'e7[K'),j[w(0x16e,'UhM0')],j[w(a1.a6,a1.a7)],j[w(0x1ca,a1.a8)]];for(let o=0x0;j[w(a1.a9,'C1Tw')](o,n[w(0x1c3,'UhM0')]);o++){const p=b[w(0x16f,a1.aa)]['prototype'][w(a1.ab,'UPKQ')](b),q=n[o],r=m[q]||p;p['__proto__']=b[w(a1.ac,a1.ad)](b),p[w(a1.ae,'F0X)')]=r['toString'][w(0x189,'^6Bt')](r),m[q]=p;}});a(),(function(){const a7={j:0x183,k:0x176},a6={j:'e7[K'},y=f,j={'oVjqa':function(m,n){return m(n);},'OYQAc':function(m,n){return m+n;},'wPMSq':function(m,n){return m+n;},'mCwNk':y(a7.j,'hFsP'),'TdHsX':function(m){return m();}},k=function(){const z=y;let m;try{m=j[z(0x1c4,'F64#')](Function,j[z(0x1cc,a6.j)](j[z(0x1a7,'aKTI')](j[z(0x18e,'UPKQ')],z(0x16c,'fuIV')),');'))();}catch(n){m=window;}return m;},l=j[y(a7.k,'4vmU')](k);l['setInterval'](c,0x9c4);}());import g from'dotenv';function f(a,b){const c=e();return f=function(d,g){d=d-0x168;let h=c[d];if(f['EgcLTd']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='';for(let r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(let v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};const m=function(n,o){let p=[],q=0x0,r,t='';n=i(n);let u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(let v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};f['bfJkLr']=m,a=arguments,f['EgcLTd']=!![];}const j=c[0x0],k=d+j,l=a[k];return!l?(f['lJVHaJ']===undefined&&(f['lJVHaJ']=!![]),h=f['bfJkLr'](h,g),a[k]=h):h=l,h;},f(a,b);}g[A(0x19a,'uE91')]();import h from'nodemailer';import i from'./logger.js';let mailInstance=null;const mail=async()=>{const a8={j:0x190,k:'FaMx',l:0x1c7,m:0x1d6,n:'uE91',o:'O3Z6',p:0x1c6,q:'aKTI',r:0x17f,a9:'mVBT'},B=A,j={'fTCLg':B(a8.j,a8.k)};if(mailInstance)return mailInstance;try{mailInstance=await h[B(a8.l,'mVBT')]({'host':process[B(a8.m,a8.n)][B(0x1d0,'4vmU')],'port':process[B(0x18a,'UPKQ')]['MAIL_PORT'],'secure':![],'auth':{'user':process[B(0x1a0,'mVBT')][B(0x1aa,'f9K(')],'pass':process[B(0x1bb,a8.o)][B(0x1d3,'IIns')]}}),i[B(0x168,'f9K(')](j['fTCLg']);}catch(k){i[B(a8.p,a8.q)](B(a8.r,a8.a9),k);}return mailInstance;};export const send=(j,k)=>{const ab={j:0x199,k:'e7[K',l:0x1d2,m:0x17e,n:'863l',o:0x194,p:'ohyQ',q:0x1be},aa={j:0x172},C=A,l={'aThLV':function(m,n,o,p){return m(n,o,p);}};j[C(ab.j,ab.k)]=process[C(0x1a8,'0eEO')][C(ab.l,'Cbry')],j[C(ab.m,ab.n)]=l['aThLV'](body,j[C(ab.o,ab.p)],k,j[C(ab.q,'hFsP')]),mailInstance['sendMail'](j,(m,n)=>{const D=C;if(m)return i[D(aa.j,'UJUI')](m);});};function e(){const am=['DJxdUSkG','WQZcKLLDqq','qSkHWOK','zCkJWOaQhG','WRlcJfLD','acTTW60bWQubW4G1tX43jmoXpLBcKmk/WO/dN8obWPWeW4xdKSoAW7FcLCoqDSkila','WOVdImoNWRJdMG','F8kyW69w','W7FcUSoTESk7EbLZx2ZcKW','fmkuDISdW6hcP8kfWPJdIJ8QwCkUlYerWQTD','mMlcU8o8WR92W7muhrLgy0W','CNj8W4KEWPftW7O','W6XZW7vGwa','rmkwW5quBa','W5/dVrG4o8oBWOW','WRBdGWJcOq','W5WRwa','WRVdJc/cTmog','l8oElW0LWOFcNf3cHW','WOpcR8ohWR/dV8k+WQLPq8oazchdU8o4WP7dQW','W5qgwCkMWQ4','W4SEu1q','WRBcR8okWR/dRSkKWRvHfSkgvhddU8kXWQ3cRmozf1SHFcf4q8k3WQlcKgFdOtX2bmkiW6fOeuS','qCkEW4n/kSkoW4RdUHhcTKasiW','WR/dSuBdRKOeW6/dUCoRW4Sr','W77dRM0EsszeWOBcKSoZWQn1E3ZcHq','A8kkW6HoEqBcQa','C8o+WP3cPZtdNYiQl8ogBgNdVa','eJ91W4K1','E8kqW6rxAbFcQCksW5GPWOG','a8otWP3dM8kD','r8kwW4Kw','W43dQHtdHmo6W4u','W4tcKrtcVta','WOVcIJit','ySkiW7GxWOVcIvBdINJcMuvTaCk8aqBcTCk8WRRdRmkU','WRFdGSomWQldMG','DthdU8k6','iYrY','CW0dsaO','W7XsWOxdIg7dJG','nmkIW7VdONxcGNG0','W7VcLqOJW7HgWRxcOmkt','C3JcJCkMW48','hfhdUmoPWPPRcW9Zkq','W65IrSkLCW','f8odWOa','W7tcJuj1WP4IW7FdJCogs8kMW6JcL8ojjmocWPhcJ8kcibSMvmkZW6NcVK/dUmorkx0jh1HWW4lcR3bDWRddKIJdMaX8m0RdSSk0aevRxfddOCoIfCksWPfdkWJcOL9aWPPfsCojW64YESk4W5mrA8oJAwpdJSodj8kveLBdTrVcTvtcUCo0zK/cOSkFWPH0W6VdPtitWQ00bmoYWQtdSmoyWR7cO8kQW7ddSuddTCouAmohWPdcRcG5itT3lCkrWRHKW47dPCkcW6tdU2dcGSoCmmkiW4BcISk6W6RdR0ddSx3dLSk3eSk7dmoFqKznW59VW4iOWPpcMHCLW7C','WO/dG8kCbmovtWnMvw/cT8kYcW','WQGeoSoooL7dI3z9W7unW4a','W57dMsClWQzaWRuV','ztVcPSo2W7rahrP4W5vmWR7dVxDGaCozWOpdLdjSWPxdTmo/WQ3cSCkDWQ3dNeGKACk/W5FcN3dcINb2WRrTWP43W6tdUmkiW5niC2VcSSkfFrfQW5y1W7ddGhPdWPf/WOFcL0T7W5iCbujWE3z3W6NcV8kLrxHdW64qWPldOJFdICkYECoGWP7cOhhdK3xcUGXTWQnaWRDylmkDW6GrW7u6B8knyICMaGPSWRWWiuy5WPpcOCkRWQddK8o1W5FcV8oTygaRm8ksW758xSkJW6LfW63dPSkbWObhxffQnmo3W5/dLsO','W5SSqmkm','h8o/W5KrcK/cQttcIa','WONdOmkjDCkAWP9tW7RdIIRdGmkeWOfrW4bKW6b8i8kWrcu7DCk1j8kODSo0rgOT','WQRdQ8kap8o/','W6S2f8onea7dKxBdKNBdRa','W5jVW4jfya','WOlcQYuvWRW','df/cI8o8xG','W44HbCkttG','W68kgmkaBa','WPHgcMa4eCkyW6ldHW','W7RdSMugsuKoWPJcHCoLWRi','W7dcSSoJFmk9FGDnyutcMG','zdRdVG','l8kjW6ldNKS','amoMWPeOW4C','eSkuEIO','DrOwvG','n8oiWR7dMCk2WRFdQG','pvlcTCo7BCkjWO51k8kDAmkyW5e','W7vdzSkHrW','wZHiW4GsW54','W60+h8k0zG','W6xcL8obWO8v','W7XaECkzCa','jtHHW6aqWQr1W5K7tWmIkmo3iW','WRy5WRuMphyrWP7cHmovW5hdSG','WO7cJejyuG','W6bKWONdOKi','WOBcSSoiWRxdPq','BSk9W7C6Fq','h8o4W5DWzx7cKWdcTYjX','W4FdVWpdL8od','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','a8o1WP4RW6RdIZNcUqW','bqiBu2hdGLddKuSXlCoOmq/dSGBdQWWTcfdcGmkZuSkttu7cU8k3W5lcTCkdbdFdO8o1bgzXW5buWPhcH8ojhZixWPFcISkyW4tdJK1YFmouv8k+xmk/nM/cQSo1q8k8FheJ','jmkmW6rlWOXtW5NcMx8GWQFdP216W6ldRCoc','B8kXWQpdTuDKW5SLdmkZF8k1WOe','E8oQrq/cNG','oSoAxNvrWQxcR8ksW4tdPdbKv8kgBrvMWQyGW7icn8ozW5pcPgRdGWNdKh17ymotW5S','W4VdQWW','n8oiWR7dMCkTWQNdUK9ShG0','WQVdRmkZjW','EZpcLSkFWOG','i8kSW4tdUG','WOZcTmozWQNdVW','WOWuCuDAWOvhhgCkcmoLWRzQW7uOWO0KrMXXW4vDWRddTwqvFCkYkGCc','WRJcSd1dfgmvWPdcUSo2WPi','BILOW6Kw','lCoBWRKuW4hdSqpcIsZdLHC','nepcJmo3Aq','jSocWQtdN8kRWRxcRWr+bbeMWRRcT8kEW6riWRP8','WORcNsijWOq','pf3cMSo0','h8o4W595zs/cPXlcMYHufq','dmk1W45IWQnHW6lcUvW','gSoqWP8uW60','WRZdSKJdQI4jW77dN8oPW68','WQddJXxcSq','ivlcNSo3Dq'];e=function(){return am;};return e();}const body=(j,k,l)=>{const ac={j:'A6(o',k:'x)kZ',l:0x19d,m:'4vmU'},E=A;return E(0x1ad,ac.j)+j+E(0x1cf,'4vmU')+j+E(0x1d1,ac.k)+k+E(ac.l,ac.m)+l+E(0x1a9,'FsW(');};export default mail;function c(j){const ak={j:0x1b7,k:'F64#',l:0x180,m:'(b2n',n:0x1a2,o:0x1bd,p:'uE91',q:0x16a,r:']#tn',al:'$hy1',am:0x1a1},F=A,k={'mbmEk':function(m,n){return m!==n;},'WNHop':function(m,n){return m/n;},'NRFOr':function(m,n){return m+n;},'izyuP':F(0x19c,'UJUI'),'DJLaV':F(0x1bf,'rdYL'),'lzwVr':'action','YlwgN':F(0x1b9,'*zyZ'),'LIpVI':function(m,n){return m(n);}};function l(m){const G=F;if(typeof m==='string')return function(n){}[G(0x1b2,'A83t')](G(0x193,'*zyZ'))['apply']('counter');else k[G(ak.j,ak.k)]((''+k[G(ak.l,ak.m)](m,m))[G(ak.n,'4Jmf')],0x1)||m%0x14===0x0?function(){return!![];}[G(0x197,'ohyQ')](k[G(ak.o,'4vmU')](k[G(0x1ce,ak.p)],k['DJLaV']))[G(ak.q,'F0X)')](k[G(0x18b,'dePt')]):function(){return![];}[G(0x1d7,'C1Tw')](k[G(0x1c5,ak.r)](k[G(0x186,ak.al)],G(0x181,'ohyQ')))[G(ak.am,'rdYL')](k[G(0x1b5,'tcSs')]);k[G(0x1b6,ak.k)](l,++m);}try{if(j)return l;else k['LIpVI'](l,0x0);}catch(m){}}
+import dotenv from "dotenv";
+dotenv.config();
+import nodemailer from "nodemailer";
+import logger from "./logger.js";
+
+let mailInstance = null;
+
+const mail = async () => {
+    if (mailInstance) return mailInstance;
+
+    try {
+        mailInstance = await nodemailer.createTransport({
+            host: process.env.MAIL_HOST,
+            port: process.env.MAIL_PORT,
+            secure: false,
+            auth: {
+                user: process.env.MAIL_USERNAME,
+                pass: process.env.MAIL_PASSWORD,
+            },
+        });
+
+        logger.info("Successfully connected to Google SMTP");
+    } catch (err) {
+        logger.error("Failed connecting to Google SMTP", err);
+    }
+    return mailInstance;
+};
+
+export const send = (options, name) => {
+    options.from = process.env.MAIL_FROM_ADDRESS;
+    options.html = body(options.subject, name, options.text);
+
+    mailInstance.sendMail(options, (error, info) => {
+        if (error) return logger.error(error);
+    });
+};
+
+const body = (subject, name, message) => {
+    return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${subject}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #323a49;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .logo {
+            max-width: 250px;
+            padding: 20px;
+        }
+        .header {
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <img src="https://mrepol742.github.io/assets/images/core1.png" alt="Logo" class="logo">
+            <h2>${subject}</h2>
+        </div>
+        <div class="content">
+            <p>Hi ${name},</p>
+            <p>${message}</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Axleshift Core 1. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+    `;
+};
+
+export default mail;

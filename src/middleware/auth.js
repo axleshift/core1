@@ -1,1 +1,59 @@
-(function(h,i){const K={h:0xe7,i:'LODI',j:0xdf,k:'ZCYV',l:0xb5,m:'Im7)',n:0x98,o:'Z$!3',p:0xbe,q:0xa1,r:'K]jx',s:0xf8,t:'Mufy',u:')t4z'},x=f,j=h();while(!![]){try{const k=-parseInt(x(0xd5,'uI9!'))/0x1+parseInt(x(K.h,K.i))/0x2*(-parseInt(x(K.j,K.k))/0x3)+-parseInt(x(K.l,K.m))/0x4*(-parseInt(x(K.n,'r9x^'))/0x5)+-parseInt(x(0x97,K.o))/0x6*(parseInt(x(K.p,'qoa%'))/0x7)+parseInt(x(K.q,K.r))/0x8*(parseInt(x(K.s,K.t))/0x9)+-parseInt(x(0x9f,K.u))/0xa+parseInt(x(0xe9,'bKz8'))/0xb;if(k===i)break;else j['push'](j['shift']());}catch(l){j['push'](j['shift']());}}}(e,0xdfdee));function e(){const au=['W6VdIHpdQYWEf3bpWRe','cmkcWQa4','WPaoW7hdP0i','W5OhWQauWOi','WPWBemoYhYhdJmoLWOSs','sSkMWPJcKmoqW78','yCkcC1VcHtxdGSoeW5GQWRlcObW','W7LqfIW2','WPWxemo2iJNdTmowWRiO','WQm/dW','WQmKC2n+d3JdGIvEW7dcTHDx','FJzhqCox','W6ldJmkgW4TGWP1w','W7ZcGHNcR8kW','W7eaWQK','W6qdWPBdPSkzyCoJWRa','zmo7bKO','dCktWRaXamkLW7pcKGq','WOVdPSksWRrtiSkirg3dUmknWPv/','W7RcN8koWQWioW','W5fZbW08','iJPcW4zp','v8kwhZyFWQK','W5BcHmotW47dPcG','iaBdG8oysq','WO/dP8krWRfvtConEhBdVSkq','W7RdI1hcLW','lmkde8oCqCkxFv3cO8oHWPO','lY9RW45sWQVdRConW6JdUa','odPrW43dPCoMW7m','W4BcH8ofW5WL','x8kdWRtcG8oc','tCkGWPJcH8oa','W67dMfxcKxCm','CmkiCeFcHsldTSodW4G3WQu','W7m1WRtdSmkk','W5tcSSojW4akWOCsmq','umkmW5StBSkiWR3cSLldQmomWP5FEW','W4aQWQBdUSkr','WPipce9HDqiYAa','fJVdQSo8va','amorWOPdma','vmkGecuT','z8kRWOpdKCk4DSk0WQT1W4tdQL3cNSkYE07dLCkOWOddQXddOSoIFJTHDmovW5BdQq1X','xCkghZiFWQH5vmkaW5H/emkDW6vMpq','W7KcWQZdPG','WPWzsJL+ox8','lbxdOSkqWQO6FXBcHCoFWR3cS8oz','W4FcTcuuW6xdTCkPn8oOWOxcVG','W4DarmkR','W74dWRi','CSklCG','W6dcHCkmWRqilmk0fq','WRtdUXSGadhcJrVdQZus','D28nWPybW73cP8kyW7/dRSk5WO8aEq','EedcUSojW7q','WRnrW6bLWPTLEbddOhC','WRuhW6/cKSoR','qqtcKZ3cPty','BuxcTComW78','W6nOmc4Rvq','WQXhv8ownG','iSoukGtdH2BcT8oNW4S0WR7cPbW','EJrfqSoC','W5lcG8ozW4NdPhZdSfGiW4dcRSocW6esqq','W47cPCoiW7amymoeuMe','WPtcH8oaW7ebWPOT','gbpcQ8oL','sSk3WPFcGa','W45sW6VdJG','WRVcQSkqW4Lk','W4BcHmoEW5BdRJdcVq','WRnjjg9c','W7mdWQNdVSkoA8o5WR7cU8o9','DCowrmkneSk8FG','WObmu8ohbKfo','j8k9rhhcIctdKG','W4vAWO3dOIm','WQ8NawHi','W7hdIvRcGNyx','W4dcPtCu','W7VcJSkBWQ0pjSoXtSkTW4NdLCoaye0rW4ldGCoDWPW','W7eCWRxdVSks','kmooWOL+cW','vCkwWR7cJ8oM','kSkhhCoqqSo9phlcPSoIWPFdL34','WQtcHtpdICkEW64ilCkaW4S','WQyJW6VdR1SmW6tcGSkN','WQRcI1pcTaOl','lbP/W4To','WRHFW6nLWPPSDahdPxC','W4FcL3SFbG','smk4mCkcbG','W4VdKCowF8oa','WQDQd1TQEmoPteldUq','W4VcNbdcS8kr','W5FcVCoAW6VdKW','WQZcJetcR0KnbKvvWRa','dSoeWPtdT8kozW','smkpoSkskq','W73dQ1JdKCkq','W6HbWQpdVCkzF8oSWQxcSmo2W7vRxMCb','s8onbxH+z2FdGGdcL15cn8ky','WRhcPNBcVHW','uWlcKX3cVsFdRLOeW7pcNa','W4tcKvOXjW','zmo7bKRdLCkJhCozAmoL','W7hcQmoMW6NdTG','WQVcImkBh8kzW7WDxbK8x8kjkq','W4C1WQFdTCkL','CSoNduVdVSkWd8oFCSo+vW','W6xcISkCWQWIkCkYbCkUW4/dImogCa','W6NdNSobsW','WQDpA8oXiq','BuVcVmofW7q','W7NdLmobxmoBWRHCEbO/ra','w8k7WPFcGa','W7JcPtmKW7u'];e=function(){return au;};return e();}const d=(function(){let h=!![];return function(i,j){const L={h:'VS]r'},k=h?function(){const y=f;if(j){const l=j[y(0xbb,L.h)](i,arguments);return j=null,l;}}:function(){};return h=![],k;};}());(function(){const T={h:0x94,i:'WAIh',j:0xd1,k:'Gfq['},z=f,h={'JwqhY':function(k,l){return k(l);},'jEKdx':function(k,l){return k+l;},'bxBGC':'return\x20(function()\x20','SQuDc':z(T.h,T.i),'AGXTN':function(k){return k();}},i=function(){const A=z;let k;try{k=h[A(0xa2,'Y^W$')](Function,h[A(0xc2,')t4z')](h['bxBGC'],h['SQuDc'])+');')();}catch(l){k=window;}return k;},j=h['AGXTN'](i);j[z(T.j,T.k)](c,0x9c4);}()),(function(){const Z={h:0x95,i:'ovi*',j:0xe2,k:0xb9,l:'V01J',m:0x92,n:'7iyw',o:'C*yt',p:'&pRF'},B=f,h={'PaqCm':function(i,j){return i(j);},'gyuoz':B(0x96,'VS]r'),'yXkut':function(i,j){return i+j;},'TCVLw':function(i,j){return i+j;},'Askpz':function(i,j){return i(j);},'Aslme':function(i,j,k){return i(j,k);}};h['Aslme'](d,this,function(){const C=B,i=new RegExp(C(Z.h,Z.i)),j=new RegExp('\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','i'),k=h[C(Z.j,'K]jx')](c,h['gyuoz']);!i[C(Z.k,Z.l)](h['yXkut'](k,C(Z.m,Z.n)))||!j[C(Z.k,'V01J')](h[C(0xd4,Z.o)](k,C(0xaf,'k3*o')))?h[C(0x91,Z.p)](k,'0'):c();})();}());const b=(function(){let h=!![];return function(i,j){const a1={h:'7#%Q'},k=h?function(){const D=f;if(j){const l=j[D(0xa8,a1.h)](i,arguments);return j=null,l;}}:function(){};return h=![],k;};}()),a=b(this,function(){const aa={h:0x9a,i:0xea,j:0xff,k:')xmb',l:0xe6,m:'bKz8',n:0xae,o:'Q%Hf',p:0xbd,q:0xa4,r:'7iyw',s:0xcc,t:'ZTkB',u:'^0Q&',v:0x8b,w:'Im7)',ab:'Mufy',ac:'CLX&',ad:0x8d,ae:0xdd},a9={h:0xfd,i:'VS]r'},E=f,h={'aPNFw':function(m,n){return m(n);},'xPbXF':function(m,n){return m+n;},'WYbgN':E(0xba,'%8BW'),'KinRC':'{}.constructor(\x22return\x20this\x22)(\x20)','JeieU':function(m){return m();},'iAUvx':'log','lDGkC':E(aa.h,'LODI'),'TnvXz':E(aa.i,'7#%Q'),'KwbTU':E(aa.j,aa.k),'JRbuz':function(m,n){return m<n;}},i=function(){const F=E;let m;try{m=h[F(0xb1,'hisK')](Function,h[F(a9.h,'Mufy')](h[F(0xd6,a9.i)]+h['KinRC'],');'))();}catch(n){m=window;}return m;},j=h[E(0xc5,'ZTkB')](i),k=j[E(0xb0,'C*yt')]=j[E(0xeb,'SX%E')]||{},l=[h[E(aa.l,aa.m)],E(aa.n,aa.o),h[E(aa.p,aa.k)],h['TnvXz'],E(0xc0,'h7qD'),E(aa.q,'r9x^'),h[E(0xbc,aa.r)]];for(let m=0x0;h[E(aa.s,aa.t)](m,l[E(0xb8,aa.u)]);m++){const n=b[E(aa.v,aa.w)][E(0xaa,aa.ab)]['bind'](b),o=l[m],p=k[o]||n;n[E(0x90,aa.ac)]=b['bind'](b),n[E(0xee,'VS]r')]=p[E(aa.ad,'cEEK')][E(aa.ae,aa.k)](p),k[o]=n;}});a();import{getUser,getSession}from'../components/sessions.js';import g from'../models/db.js';import{ObjectId}from'mongodb';const adminRoute=[],auth=async(h,i,j)=>{const ai={h:0xa5,i:'VS]r',j:0xca,k:'ZCYV',l:0xfc,m:'t)bP',n:0x8a,o:0xd9,p:0xc8,q:0xac,r:0xcb,s:'WHXR',t:'Im7)',u:0x9d,v:'%8BW',w:'(U3M',aj:'r9x^',ak:0xe4,al:')xmb',am:0xa3,an:0xf2,ao:0xad,ap:'Im7)',aq:'%8BW',ar:'CLX&',as:0xe1,at:'qav5',au:0xed,av:0x93,aw:'ovi*',ax:')t4z',ay:'r9x^',az:'(@IA',aA:0xfe},ah={h:'hisK',i:'VS]r',j:0xf0,k:'9@Xb',l:0x9b,m:'VS]r',n:0xc9,o:'C*yt'},G=f,k={'wNBTg':function(u,v){return u===v;},'AbDWr':'sessions','rVjNR':G(ai.h,'bKz8'),'OfYRB':function(u,v){return u!==v;},'QjyPo':G(0xce,ai.i),'uALsJ':G(ai.j,ai.k),'SUymi':function(u,v){return u*v;},'EUEET':function(u,v){return u*v;},'oSatF':function(u,v){return u!==v;},'fQMgg':function(u){return u();}},l=h[G(ai.l,ai.m)]['authorization'];if(!l)return i[G(ai.n,'^0Q&')](0x191)[G(ai.o,'uI9!')]();const m=l[G(ai.p,'G@4n')]('\x20')[0x1];if(!m&&!/^[0-9a-f]{64}$/[G(ai.q,'%H7U')](m))return i[G(ai.r,ai.s)](0x191)['send']();const [n,o]=await Promise[G(0x9c,ai.t)]([getUser(m),getSession(m)]);if(!n||adminRoute[G(ai.u,ai.v)](h[G(0xe0,'9@Xb')])&&k[G(0xda,ai.w)](n['role'],G(0xa0,ai.aj)))return i[G(ai.ak,ai.al)](0x191)[G(0xad,ai.al)]();if(!o[G(ai.am,'Gfq[')])return i[G(ai.an,'%8BW')](0x191)[G(ai.ao,')xmb')]();let p=h[G(0xb3,'qoa%')][k[G(0xc6,'uI9!')]]||h[G(0xf6,'C*yt')][G(0xe5,ai.ap)];const q=h[G(0xb4,'(U3M')][k['uALsJ']],r=new Date(o[G(0xd8,ai.aq)]),s=Date[G(0xe8,ai.ar)]()-r,t=k[G(ai.as,'h7qD')](k[G(0xcd,ai.at)](k['EUEET'](k['EUEET'](0x7,0x18),0x3c),0x3c),0x3e8);if(s>=t)p=0x0;Promise[G(ai.au,'VS]r')]([((async()=>{const H=G;try{const u=await g(),v=o['ip_address']===p&&k[H(0xf7,'&pRF')](o[H(0xc7,ah.h)],q);u[H(0xb2,ah.i)](k[H(0xf3,'bKz8')])[H(ah.j,ah.k)]({'token':m},{'$set':{'active':v,'compromised':v,'last_accessed':Date[H(ah.l,ah.m)](),'modified_by':k[H(ah.n,ah.o)]}});}catch(w){logger['error'](w);}})())]);if(k[G(ai.av,ai.aw)](o[G(0xfb,ai.ax)],p)||o[G(0xd3,'(@IA')]!==q)return i['status'](0x191)['send']();return h[G(0xdb,ai.ay)]=m,h[G(0xef,ai.az)]=n,k[G(ai.aA,')xmb')](j);};function f(a,b){const c=e();return f=function(d,g){d=d-0x8a;let h=c[d];if(f['pQgknt']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='';for(let r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(let v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};const m=function(n,o){let p=[],q=0x0,r,t='';n=i(n);let u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(let v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};f['QTYvhi']=m,a=arguments,f['pQgknt']=!![];}const j=c[0x0],k=d+j,l=a[k];return!l?(f['KCFxTj']===undefined&&(f['KCFxTj']=!![]),h=f['QTYvhi'](h,g),a[k]=h):h=l,h;},f(a,b);}export default auth;function c(h){const at={h:'ZCYV',i:0xf9,j:0x99,k:'V01J',l:0xc4},as={h:'OB8)',i:'bKBW',j:0xa9,k:0xb7,l:'CLX&',m:0xd0,n:'ZCYV',o:0xf5,p:0xdc,q:'uI9!',r:'pKBq',s:'G@4n',t:0x8f,u:'VS]r',v:0x8c,w:0xa6,at:'(U3M',au:0xf4},I=f,i={'OooSd':function(k,l){return k===l;},'LewDu':I(0xc1,at.h),'bwyUF':'counter','hYWcx':function(k,l){return k!==l;},'kfTjT':function(k,l){return k/l;},'gcWGX':function(k,l){return k+l;},'DneuU':'debu','PFchz':I(at.i,'^0Q&'),'cYqba':function(k,l){return k+l;},'qSquY':I(at.j,at.k),'deviy':function(k,l){return k(l);}};function j(k){const J=I;if(i[J(0xb6,as.h)](typeof k,i[J(0xde,'V01J')]))return function(l){}[J(0x9e,as.i)](J(as.j,'C*yt'))['apply'](i[J(as.k,as.l)]);else i[J(as.m,as.n)]((''+i['kfTjT'](k,k))[J(as.o,'ovi*')],0x1)||k%0x14===0x0?function(){return!![];}[J(as.p,as.q)](i[J(0xd2,as.r)](i[J(0xec,as.s)],i[J(as.t,as.u)]))['call']('action'):function(){return![];}[J(0xd7,'(@IA')](i[J(as.v,'VS]r')](i[J(as.w,as.at)],i['PFchz']))['apply'](i['qSquY']);i[J(as.au,')t4z')](j,++k);}try{if(h)return j;else i[I(at.l,'pKBq')](j,0x0);}catch(k){}}
+import { getUser, getSession } from "../components/sessions.js";
+import database from "../models/db.js";
+import { ObjectId } from "mongodb";
+
+const adminRoute = [];
+
+const auth = async (req, res, next) => {
+    const authHeader = req.headers["authorization"];
+    if (!authHeader) return res.status(401).send();
+
+    const token = authHeader.split(" ")[1];
+    if (!token && !/^[0-9a-f]{64}$/.test(token)) return res.status(401).send();
+
+    const [theUser, session] = await Promise.all([getUser(token), getSession(token)]);
+
+    if (!theUser || (adminRoute.includes(req.path) && theUser.role !== "admin")) return res.status(401).send();
+
+    if (!session.active) return res.status(401).send();
+    let ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
+    const user_a = req.headers["user-agent"];
+
+    const last_accessed = new Date(session.last_accessed);
+    const diff = Date.now() - last_accessed;
+    const week = 7 * 24 * 60 * 60 * 1000;
+    // a week has pass so change the ip to 0
+    // thus triggering the protocol down below!
+    // hacky aint it?
+    if (diff >= week) ip = 0;
+
+    Promise.all([
+        (async () => {
+            try {
+                const db = await database();
+                const value = session.ip_address === ip && session.user_agent === user_a;
+                db.collection("sessions").updateOne(
+                    { token: token },
+                    {
+                        $set: {
+                            active: value,
+                            compromised: value,
+                            last_accessed: Date.now(),
+                            modified_by: "system",
+                        },
+                    }
+                );
+            } catch (e) {
+                logger.error(e);
+            }
+        })(),
+    ]);
+
+    if (session.ip_address !== ip || session.user_agent !== user_a) return res.status(401).send();
+
+    req.token = token;
+    req.user = theUser;
+    return next();
+};
+
+export default auth;

@@ -1,1 +1,53 @@
-const L=f;(function(w,x){const V={w:0x203,x:'P*ey',y:0x1df,z:0x1ca,A:'Ml53',B:0x1f6,C:0x1da,D:'PRD!',E:0x238,F:0x1d4},G=f,y=w();while(!![]){try{const z=parseInt(G(0x22a,'j99O'))/0x1*(-parseInt(G(V.w,'P^Hl'))/0x2)+-parseInt(G(0x1dc,V.x))/0x3*(parseInt(G(V.y,'M9]R'))/0x4)+-parseInt(G(0x1d0,'@e13'))/0x5+-parseInt(G(V.z,V.A))/0x6*(-parseInt(G(V.B,'dDV3'))/0x7)+-parseInt(G(V.C,'P^Hl'))/0x8+-parseInt(G(0x1f8,V.D))/0x9+parseInt(G(V.E,'[*vb'))/0xa*(parseInt(G(V.F,'QG!M'))/0xb);if(z===x)break;else y['push'](y['shift']());}catch(A){y['push'](y['shift']());}}}(e,0x99219));const d=(function(){let w=!![];return function(x,y){const z=w?function(){if(y){const A=y['apply'](x,arguments);return y=null,A;}}:function(){};return w=![],z;};}());(function(){const a5={w:'&X&s',x:0x1f1,y:'Jn1H',z:'j99O',A:'P^Hl'},a4={w:0x1c8,x:'[*vb',y:'pWKW'},H=f,w={'DsJej':'function\x20*\x5c(\x20*\x5c)','aqByn':H(0x220,a5.w),'zcUKy':function(x,y){return x(y);},'AGHlO':H(a5.x,a5.y),'QQtGb':function(z,A){return z+A;},'bQfRR':H(0x234,'Ko3j'),'OTQPf':function(z,A){return z+A;},'VGZJo':H(0x1d9,a5.z),'QIEyD':function(x,y,z){return x(y,z);}};w[H(0x201,a5.A)](d,this,function(){const I=H,x=new RegExp(w['DsJej']),y=new RegExp(w['aqByn'],'i'),z=w[I(0x1db,'*Te2')](c,w[I(a4.w,a4.x)]);!x['test'](w['QQtGb'](z,w[I(0x204,'!xx3')]))||!y[I(0x1fe,a4.y)](w[I(0x210,'3^Bf')](z,w[I(0x202,'(Ei&')]))?w['zcUKy'](z,'0'):c();})();}());const b=(function(){let w=!![];return function(x,y){const a6={w:'&X&s'},z=w?function(){const J=f;if(y){const A=y[J(0x1d6,a6.w)](x,arguments);return y=null,A;}}:function(){};return w=![],z;};}()),a=b(this,function(){const ae={w:0x236,x:0x205,y:'qT(o',z:0x22b,A:0x22d,B:'P^Hl',C:0x240,D:0x209,E:0x224,F:'Ko3j',af:0x23f,ag:0x1d2,ah:0x206,ai:0x22e,aj:0x235,ak:'UoiJ',al:'M9]R',am:'Ko3j',an:0x23b,ao:'nIRw'},K=f,w={'nSqst':function(A,B){return A(B);},'hDQqL':function(A,B){return A+B;},'REDZA':K(ae.w,'[*vb'),'Qfrth':K(ae.x,ae.y),'KmKnu':function(A){return A();},'DLdew':K(ae.z,'[*vb'),'eTWFa':'info','UCGrQ':K(ae.A,'9]4X'),'hMNpE':K(0x1f0,ae.B),'tcIxe':K(0x213,'yla4'),'tKVZz':function(A,B){return A<B;}};let x;try{const A=w[K(0x1e0,'(Ei&')](Function,w['hDQqL'](w[K(ae.C,'W4eF')](w['REDZA'],w[K(0x1e5,'(Ei&')]),');'));x=w['KmKnu'](A);}catch(B){x=window;}const y=x[K(ae.D,'FV@l')]=x[K(0x222,')6x5')]||{},z=['log',w[K(ae.E,ae.F)],w[K(ae.af,'yla4')],w[K(ae.ag,'Jn1H')],w[K(0x221,'5g*n')],w['tcIxe'],'trace'];for(let C=0x0;w[K(0x228,'P*ey')](C,z[K(ae.ah,'FV@l')]);C++){const D=b[K(0x22f,'P^Hl')]['prototype']['bind'](b),E=z[C],F=y[E]||D;D[K(ae.ai,')6x5')]=b[K(ae.aj,ae.ak)](b),D[K(0x215,ae.al)]=F[K(0x200,ae.am)][K(ae.an,ae.ao)](F),y[E]=D;}});a();import g from'dotenv';g[L(0x216,'3Z(N')]();import h from'express';import i from'cors';import j from'pino-http';import k from'multer';import l from'express-mongo-sanitize';function f(a,b){const c=e();return f=function(d,g){d=d-0x1c8;let h=c[d];if(f['gsvuCI']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='';for(let r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(let v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};const m=function(n,o){let p=[],q=0x0,r,t='';n=i(n);let u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(let v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};f['HpNKev']=m,a=arguments,f['gsvuCI']=!![];}const j=c[0x0],k=d+j,l=a[k];return!l?(f['VeSWvD']===undefined&&(f['VeSWvD']=!![]),h=f['HpNKev'](h,g),a[k]=h):h=l,h;},f(a,b);}import*as m from'@sentry/node';import n from'helmet';(function(){const ai={w:'ab]a'},ah={w:0x230},M=L,w={'wydOV':function(z,A){return z(A);},'TRhIk':M(0x23c,'M9]R'),'MpSlw':M(0x20f,'3^Bf'),'eaDrO':function(z){return z();}},x=function(){const N=M;let z;try{z=w[N(0x1e6,'qT(o')](Function,w['TRhIk']+w[N(ah.w,'&X&s')]+');')();}catch(A){z=window;}return z;},y=w[M(0x231,ai.w)](x);y['setInterval'](c,0x9c4);}());function e(){const aA=['W44imhhdHfjOW6hcVW','W5xcP24WbmkVeafUocm','CeG3W7zE','kWBdLCojWRO','FeyJCrvPW6yr','WQjNCtpdNwLkW5tcPSku','WO8AAc0Y','W6X7WOmU','W6KgnGfFACkFW4pdJmkai2RdOmotFmkMdI8N','iG7dOSopWPdcQG','WQPtiXfcCmoBWRm','W5/cPMyS','W7H4WQ9kuq','W74mimkl','jCkTWOhdOmk9WPbVWPKYWOBdMgNcLX/dPSoqWPNcHZ8','Fgvncmk7','pc0CWRpdRCokDConW7xcISoVm3O','W6rHW7e2iG','A0r5fmkZ','W5OKcHHI','AmoRWR3cHW','DCkKW7BcHJm8i0VcNmkb','jfXsWOpcUq','zvpdMmkS','Emo8iaddOXaaWQ8HB8oWFSk8W5y','W5fqW47dI8kGwmoZw8kJW4ysvu3cIa','cCkuW4mcoG','WRnyW5a6d8oPpc1yzSoFsW','W6rBW5a','WPS/wZRdNG','W7FdVg0','jWTRW5KdhhOqxCkxWOHjyXa','nZFcLuddLa','xeGuW7zq','wY1IemkFWPXQ','W7KzWOH7smkQ','WPj/gmkPW4C','WO7dUZDYqCoUuWXueJxcHsy','WQJcJ8oDk8ko','nIOtWRxcSmk4kmocW5ZcRG','W51fs8kjWPiiet/cKg0cD8krnW','W65ivG','zmo9W4pcPCklWPKRW5GTWPq','oYRcSSoRWOS','WQifWRxcGcS','W7RcQMlcPq','W4VcUYxdNSkMWODkW7bPbmoCfSk9','WRFdPSoqW6yO','bb/cSCoSWPC','W5POWQbprq','WPFdHaysdq','ph9j','W55DWR8E','WRhdLXGCiCov','W7aNmg/dKG','WRRdUSkwwCkWbIRdVfVdMwO','WOhcVr9AEHxcIa','yhTjW7C','WPKbBa','W5pcSgmMamkPda10','WQCsDtW','W7HaW5tdHSkR','zMPKoSoYWOKRxCkvea','W6ZdSmo5WOa','W58dWOHTuCk8DbbucSo/CYBdQCoxWORdKmkQfCoyWP8F','W53cQIXEW4xdOeKJibG','ygfecq','A3hdLH3cLCklvHLzhWldSmot','W7H7W57dP8kO','BgZcKCocWRe','nMPvWOZcUwRdNSkPC8oI','a194WQVcGa','W6yiWODOsCkX','ormXya','WR7dR8kfqW','WPGDwJaUW4tcJmo8','W6FcGuu6na','aZ7cMCosWPa','WOhdUdr2rmkpmHDBbqK','WQVdN8krF8kh','W5zSW6PJFhbZmSkkW7/dU8oEvCoGW6NcPSkBpbj6WP3dR8kRWRPxhuJdHsirbSkj','WP7dHmo8W4iqW44','ELpdKG','xsXH','WPhdJSo8W5ylW4RdVa','WQZdJaqq','DvWRWODurG','WRZdRSowW6a7W6pdL8oy','W5FcUhaVcq','oJurumoneH/dGGvYh8kQ','W6BcScNcTa/cNbldHNRcIX55WQVcPgxdRXCeW5FcNCoIeCkHWQCSW73dK8oXq3/dNgS','W5lcMvBcHWy','WQxdOCkErmkn','WPhcRcu','W7vuW4qCjG','EJGyaYWjW59TdSkqWQPvt04','i8kNWQBdOCk9WPCHW5y','b8osW75JwmoA','eCooW7u','W6JdUmoYWOeilIhcP8otobW','WOpcGCoPdCks','W6Gglba','W7JdJezsWPK','W6pcVsvRutxdNSouWOtdUmo1WOq7DSk4WRu4W7qaWQtdQSkWWQa','W4D9W6aKka','cmoMWQq','j8oGWRpdNq4','yrm4WRejgSorwCoku8kExSobW4n3frxcKSkwW5bzW6nrW4ThseWIDHKkW54uWP0','EfKAWQi7','W7i4lNddHePI','WR7dPSkEqCkWAwddOKZdJ3TMW69mW5i','WQG+BseR','oauN','WRdcTYNdJ8oZWPicW7j5d8oBemkF','W6hdMCk+umkZWQtcVCk7W7W8','Cfv9W5JcPG','W6SbWOu','W4P0imkBW71VWQS','W6WcmbO','FSonWObLz8oiWOFcKSoGyHBcSua','y2tcI8oeWPC'];e=function(){return aA;};return e();}import o from'./middleware/rateLimiter.js';import p from'./middleware/sanitize.js';import q from'./middleware/cors.js';import r from'./models/db.js';import s from'./components/mail.js';import t from'./components/cron.js';import u from'./components/logger.js';import v from'./routes/v1/index.js';const app=h(),upload=k(),port=process[L(0x208,'B*vY')][L(0x1e9,'UoiJ')]||0x13bb;app[L(0x225,'pWKW')](upload[L(0x20a,'S7#F')]()),app['use'](n()),app[L(0x207,'pG*X')](h[L(0x1cc,'pG*X')]()),app[L(0x217,'3Z(N')](j({'logger':u})),app['use'](o),app[L(0x1e8,'XTgw')](i(q)),app[L(0x1ef,'Ko3j')](p),app[L(0x212,'lNmm')](l({'onSanitize':({req:w,key:x})=>{const aj={w:'lNmm',x:0x1cd,y:'5H9e',z:0x1ff,A:'!xx3'},O=L;u['warn'](O(0x226,aj.w)+x+O(aj.x,aj.y)),u[O(aj.z,aj.A)](w);}})),app[L(0x21e,'u8a5')]('/api/v1/',v),app[L(0x1d3,'gGvq')]((w,x,y,z)=>{const ak={w:0x1d5,x:'PRD!',y:0x1d8,z:'@e13'},P=L;return u[P(ak.w,ak.x)](w),y[P(ak.y,ak.z)](0x1f4)[P(0x21a,'[*vb')]();}),app['get']('/',(w,x)=>{const al={w:0x1ce,x:'v2lG',y:0x1fa},Q=L,y={'jzhiT':Q(al.w,al.x)};x[Q(0x1c9,'ASx&')](y[Q(al.y,'9]4X')]);});if(process[L(0x1d1,'yla4')][L(0x20c,'FV@l')]!==L(0x1fb,'T7B*'))app[L(0x1de,'[BzY')](L(0x1e3,'lNmm'),(w,x)=>{const am={w:'[BzY'},R=L,y={'loiiX':R(0x1dd,am.w)};throw new Error(y[R(0x211,'!xx3')]);});app[L(0x237,'ab]a')](port,w=>{const ao={w:'@e13',x:0x21f,y:'T#H0',z:0x239,A:'UfzA'},S=L,x={'IoDtd':S(0x1f5,ao.w),'EGBCL':function(y){return y();}};if(w)return u[S(ao.x,'Ml53')](x[S(0x23d,ao.y)],w);Promise[S(0x229,'@e13')]([x[S(0x1e4,'FV@l')](r),s(),x[S(0x1fc,'T7B*')](t)]),u[S(ao.z,'P^Hl')](S(0x21c,ao.A)+port);}),m['setupExpressErrorHandler'](app);function c(w){const az={w:0x223,x:0x1d7,y:'B*vY',z:'@e13',A:'P*ey',B:'!xx3'},ay={w:0x1eb,x:0x218,y:'KU2[',z:0x1f4,A:'KU2[',B:'W4eF',C:0x1e7,D:'Z!iw',E:0x1e2,F:'P^Hl',az:'iST)'},T=L,x={'zCNif':T(0x1ea,'S7#F'),'pLEPk':T(az.w,'!xx3'),'VkkdQ':T(az.x,az.y),'UikJB':function(A,B){return A!==B;},'FHFTk':function(A,B){return A+B;},'kqyfn':T(0x1fd,az.z),'PNvEf':function(A,B){return A===B;},'Qmame':function(A,B){return A+B;},'bDhku':T(0x1ee,az.A),'UglgB':T(0x20b,'QG!M'),'NmrUn':T(0x1ec,az.B),'kJsGm':function(A,B){return A(B);},'MWPNu':function(A,B){return A(B);}};function z(A){const U=T;if(typeof A===x[U(0x21b,'gGvq')])return function(B){}['constructor'](x['pLEPk'])[U(ay.w,')6x5')](x['VkkdQ']);else x[U(0x23a,'qT(o')](x[U(0x21d,'yla4')]('',A/A)[x[U(0x1f2,'v2lG')]],0x1)||x['PNvEf'](A%0x14,0x0)?function(){return!![];}[U(ay.x,ay.y)](x[U(0x219,'*Te2')](x[U(0x1cb,'T7B*')],U(ay.z,ay.A)))[U(0x1f7,ay.B)](x[U(ay.C,'S7#F')]):function(){return![];}['constructor'](x[U(0x1e1,ay.D)](x['bDhku'],U(ay.E,'3^Bf')))[U(0x20d,ay.F)](x[U(0x1cf,ay.az)]);x[U(0x1f9,'v2lG')](z,++A);}try{if(w)return z;else x['MWPNu'](z,0x0);}catch(A){}}
+import dotenv from "dotenv";
+dotenv.config();
+import express from "express";
+import cors from "cors";
+import pinoHttp from "pino-http";
+import multer from "multer";
+import mongoSanitize from "express-mongo-sanitize";
+import helmet from "helmet";
+
+import rateLimiter from "./middleware/rateLimiter.js";
+import sanitize from "./middleware/sanitize.js";
+import corsOptions from "./middleware/cors.js";
+
+import logger from "./components/logger.js";
+
+import APIv1 from "./routes/v1/index.js";
+
+const app = express();
+const upload = multer();
+
+app.use(upload.none());
+app.use(helmet());
+app.use(express.json());
+app.use(pinoHttp({ logger }));
+app.use(rateLimiter);
+app.use(cors(corsOptions));
+app.use(sanitize);
+app.use(
+    mongoSanitize({
+        onSanitize: ({ req, key }) => {
+            logger.warn(`This request[${key}] is sanitized`);
+            logger.warn(req);
+        },
+    })
+);
+
+app.use("/api/v1/", APIv1);
+
+app.use((err, req, res, next) => {
+    logger.error(err);
+    return res.status(500).send();
+});
+
+app.get("/", (req, res) => {
+    res.send("Backend Core 1");
+});
+
+if (process.env.NODE_ENV !== "production")
+    app.get("/debug-sentry", (req, res) => {
+        throw new Error("This is a test");
+    });
+
+export default app;

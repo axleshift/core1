@@ -1,1 +1,203 @@
-function f(a,b){const c=e();return f=function(d,g){d=d-0x17d;let h=c[d];if(f['jHXMJG']===undefined){var i=function(n){const o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let p='',q='';for(let r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(let v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};const m=function(n,o){let p=[],q=0x0,r,t='';n=i(n);let u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(let v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};f['dcrseK']=m,a=arguments,f['jHXMJG']=!![];}const j=c[0x0],k=d+j,l=a[k];return!l?(f['zzcgUg']===undefined&&(f['zzcgUg']=!![]),h=f['dcrseK'](h,g),a[k]=h):h=l,h;},f(a,b);}const G=f;function e(){const aK=['ASoXomoAWReoF8k2WOldUCku','W7xcRaD0zSoUjHtcPq','W7KXxxf8','WRXZqbhcNmkq','vfZcTX0Auq','WOuOcq','W5JcIvdcQLex','WPOIamoi','W6BdLqKcWP0','W6bDWPRcQSoqWOW','bCkHW41td8kNe1z5W6xcGG','WR7dTebb','ACkjW6P4WPhcJX3dN3yaoCoYyCkXc8kWv8k1W74','W79DWOpcHSow','rLJcPGuw','WQ7cON1hW50','W4i2WOpdQIm','W7L8WO4','WR7dPu9rvZe','wSkWDuTj','oSoBWR5ZqSklra','WPNdOrS','i1iEW6VcT2xdQa','ifijW63cOG','W7RcJSoGhmonC8k2W4FcN8kPW6K','W5/cKLRcU0O','lrBcPSkjkW','nL7cUSkbWOO','CSkcW7D5','W6PsfmkqWPap','W4JdRSkuW6D3W7q','W7LCcmkcWPiqyG','qLdcTqWFvKWlW7e','WR4SWOCJWOpdTCkLW7C','W5RdSsW','WPCzWQaufW','hCkZWO1dfmk7fuf/W7/cKX3dUGnpWOtdOcfLWQRcJmo0W458qXJcU8oRW4b8W7JdGG','W4mHWP3dOcvGWPxcU8oB','W5/cKMlcQLyngMi','ohddPeRdRW','W7JcImo8','WRpcO3bn','W6L2WPOOWPpdVSkAW5/dGapcLsldPc8','W5ldKxZcLuBcUmonWRmMxW','WRHVsaNcJmodldTRWQy/vCk+WR/dUa','W55iWO3cR8oL','bCoRWOf7rG','ACklwSoLWRaU','hCkcC8ktW5i','W7/cImoGcW','WQCqWRuG','WQeAWRmS','nuOIW6xcOa','W7pdHbWiWPFcGG','W5ldTmkfW6z2','ve3cUa0','W5mRWRddTYnKWQm','bLVcNY0','W7DGv8kZ','W7hcNmoKya','W7nvqCkEnW','cMZcQCoA','pSoGba48wCokC8oQWPFdT2bN','W7SbkSkXW64','W75bW4BdNa','W6NdUCkLW4rH','WQPoqXpcOW','p2VdUee','ncVcOmkkhha','W7xcICo3ENddRq','W5aMWQ/cUa','lwlcNNOE','mZlcJ8kPgq','yMldUmoEWOW','W6FcV1PYE8o0gG7cSKZcPCkLW43dQmknWO52c8oyoSoNohBcJJ8kfmkRWQnaW7tcKW','WQv0tGS','W7JcImoBgSo4','W4vOW6NdSh0','WQLUtWe','cxFcQmohWQ52','W5JdImkyWOi1','WOLXWQVcJmobmby','CmkXAmoLWRe','W6DjWOSTWQa','WRXuWQnjW58','WRTIuHe','WQtdV01jvYBcPcm','WQxdPXnhrrCLiWTR','W5VcKKlcQG','l1e+W4JcOW','W7ZcObOCfxFdTrCFBmoCqmki','W75qW4NdJfJcSq','nuejW6pcVx4','WPldUeO','bKRcKd3dTCkE','WP9PWP5jW60','W7GKCgy','W5uRWP3dOa','p8omW7rUvmkSFSkEW510cW','A8oVAmkVWRO','W7riW6DUwSk0ksroW5bPW5pdVq','ihFcTCkhWQNdNdie','W6L4WOmQ','nMFcR8olWOS','l8ogW7vjtSk9Aq','WOTXcd0i','W6XRWOOVWOddKSkb','WQpdUG1euG','W6RcLCoVg8omCG','WPSOaSoj','W7WGW5yzWP12vmodWRC/cJK5','ndRcOa','qCoJtCkcxGZdJa','W77dGGygWOZcHa','WQpdOmkK','WQmkWR86gSoLDICpWR5NWRlcHCkgW69H','W4SHWP/dOIvT','jI7cJCkqja','WRGnWPZcQmoaWQVdQCkK','W6FcKCo6','fmoYwCkAuW','omkRz8kgW6yQxmkiWOhdPa','WQWrWRi1g8oOFdO','E8kwrKT5','WOaTzxJcJSk+','W7lcRqm','wxNdTCofWR4','rJtcG3mQ','yCk4rq','WQKAWR8+gSoK','WR58WOLp','W6eEkCkJW4e','W5mHWOldSq','W7pdVCkZW71B','WQJdKCoDpCoEvCkOW6W','WRSGW5DYW57cJ8ktW47dOHtcTca','eKdcG8ofWOO','WQfrzrtcPG','WPDPWRtcLCosBx08','W4PqW5JdMN4','bCkHW41geSkY','W7FcHCobjSol','WRL2WQzzW54UgW','W59lW53dJeJcSa','oKZcHMqkWQDjW7NdQ8kI','ACklwSoLWQasoCoemSk7W7m','W6tdHCkfW6fTW7n/WPHq','wM9/WQJdQq','WR3cQNnq','W7pdGWuiWPy','vCo/WPSqmSkmlun9W4G','WQLXfIGa','o2VcUmobWRm','AbldNJfyW7ejW5FdNmkIzmkcWPy','WPbUrq','WQ4nWQqipq','ruhcUa0','W5hdIs7cGKi','pIZcQ8kpW6ZcNhqtW5PXiX/dOq','WRVcVwzoW4O','WO/dVCkHcdrg','W4WRW5NdJSkbfJJcHLtcOG0','gmoetCkLCG','W4NcJdTquW','eulcPa','W7WAimkGW7xcLG','W4CWWRpcSCo5rhGSkGO','ASo2omoCW7SJCmkPWONdQq','nhVcPW3dHq','WQRcP09fW4m','WOZdQmkYhsXg','WRSGW5D0W5ldKSkmW7xdKINcLa','ucNcG2G','WPRdKmkSfbu','d8opD8kOWRHaWPi','WQZcKHxdTNe','WRWHW5LWW5dcI8ofW77dPGFcVZBdGG','B8kdW7vOWO0','W6SMs3TzmtZcImo2tWbuW5a','FhddTmoz','p0RcHgW','fthcHW','xSkyvfDF','p8omW65d','W6Wbl8kNW7tcL8onuYJdKKG','W7rgW6LTv8k5FZT4W65/W7y','d8kNW5PPgq','W4iTWRRcTmo7t3G','W6/dR8kfWPq','sgTUWRddPu4','WQypWQCwjq','EmkjW7DH','tY/cNhuS','ECkfW7bP','eJhcM8ky','W4mJf8kbW6S','W6jSW4GrW5G2eSouW7broJy','rvRcGb4J','W5jnW4W','WO/dRmkUga','W6NcSHbWymo/jHtcPq','W4G+WRhcUq','WR8jW4ZdVCoTWR3dSSkzW6bL'];e=function(){return aK;};return e();}(function(m,n){const Q={m:'pbRT',n:0x186,o:'Zulu',p:0x1b5,q:0x237,r:'DxX)',s:'wCof',t:0x1c7,u:'0pAq',v:0x205,w:'Q%]x',x:0x1e8,y:0x182,R:0x1a3,S:'0pAq',T:0x1a7},z=f,o=m();while(!![]){try{const p=parseInt(z(0x221,Q.m))/0x1+parseInt(z(Q.n,Q.o))/0x2*(parseInt(z(Q.p,'3jK@'))/0x3)+-parseInt(z(Q.q,'V5JF'))/0x4*(parseInt(z(0x1ac,Q.r))/0x5)+-parseInt(z(0x192,Q.s))/0x6*(-parseInt(z(Q.t,Q.u))/0x7)+parseInt(z(Q.v,Q.w))/0x8*(-parseInt(z(Q.x,'DxX)'))/0x9)+parseInt(z(Q.y,'7#0u'))/0xa*(-parseInt(z(0x235,'IzFQ'))/0xb)+-parseInt(z(Q.R,Q.S))/0xc*(parseInt(z(Q.T,'DxX)'))/0xd);if(p===n)break;else o['push'](o['shift']());}catch(q){o['push'](o['shift']());}}}(e,0xa88c8));const d=(function(){let m=!![];return function(n,o){const p=m?function(){const A=f;if(o){const q=o[A(0x19b,'aoaw')](n,arguments);return o=null,q;}}:function(){};return m=![],p;};}());(function(){const Z={m:'TlD!',n:0x1f5,o:'w1rY',p:0x245,q:'M]Ss'},B=f,m={'Edexn':'\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','xuzNk':B(0x1e3,'^S$R'),'ZONMh':'chain','gcOpA':function(n,o){return n+o;},'jNStt':B(0x1fd,'TsRt'),'YBZac':function(n,o){return n(o);},'Vloxc':function(n){return n();},'Znrcn':function(n,o,p){return n(o,p);}};m['Znrcn'](d,this,function(){const C=B,n=new RegExp(C(0x23a,'3jK@')),o=new RegExp(m['Edexn'],'i'),p=c(m[C(0x1e2,Z.m)]);!n[C(0x21c,'*zAm')](p+m['ZONMh'])||!o[C(0x180,'@vcF')](m['gcOpA'](p,m[C(0x219,'VFyw')]))?m[C(Z.n,Z.o)](p,'0'):m[C(Z.p,Z.q)](c);})();}());const b=(function(){const a1={m:0x18f,n:'0D66'};let m=!![];return function(n,o){const p=m?function(){const D=f;if(o){const q=o[D(a1.m,a1.n)](n,arguments);return o=null,q;}}:function(){};return m=![],p;};}()),a=b(this,function(){const a9={m:0x1d3,n:0x211,o:'vxY0',p:'Er[m',q:'aoaw',r:'dUp*',s:'QkT]',t:0x20f,u:0x1e6,v:'@CJ5',w:0x1b6,x:0x1bf,y:'ea%6',aa:'m7]L',ab:0x1f7,ac:0x197,ad:'3jK@',ae:0x1d1,af:'wCof',ag:0x20a,ah:'LPNk',ai:'TsRt',aj:0x1bd},a8={m:0x242,n:'Q%]x',o:0x210,p:0x181,q:'TsRt'},E=f,m={'AEVDE':function(r,s){return r(s);},'tAtrq':function(r,s){return r+s;},'mwbcQ':E(a9.m,'^S$R'),'HgFnY':E(a9.n,a9.o),'tmNWp':function(r){return r();},'iiyIb':E(0x202,a9.p),'LMVUk':E(0x1f0,a9.q),'DBsrL':E(0x1ee,'LPNk'),'hCYkJ':E(0x1e7,a9.r),'FFxyQ':'table','kruQS':E(0x1cf,a9.s)},n=function(){const F=E;let r;try{r=m[F(0x1a4,'2blo')](Function,m[F(0x20e,'B(]@')](m[F(a8.m,a8.n)](m[F(a8.o,'M]Ss')],m[F(a8.p,a8.q)]),');'))();}catch(s){r=window;}return r;},o=m[E(a9.t,'XC9K')](n),p=o[E(a9.u,a9.v)]=o['console']||{},q=[E(0x1cc,'N@lq'),m[E(a9.w,'wCof')],m[E(a9.x,a9.y)],m[E(0x217,'jME%')],m[E(0x184,a9.aa)],m[E(a9.ab,'0pAq')],m[E(a9.ac,a9.ad)]];for(let r=0x0;r<q[E(0x238,'QkT]')];r++){const s=b[E(a9.ae,a9.af)]['prototype'][E(a9.ag,a9.ah)](b),t=q[r],u=p[t]||s;s[E(0x18e,a9.ai)]=b[E(0x198,'dUp*')](b),s[E(0x1ed,'9g7I')]=u['toString'][E(a9.aj,'^S$R')](u),p[t]=s;}});a();import g from'dotenv';g[G(0x188,'wCof')]();import{ObjectId}from'mongodb';import h from'express';import i from'../../components/logger.js';import j from'../../models/db.js';import k from'../../middleware/auth.js';import l from'../../middleware/recaptcha.js';import{getUser}from'../../components/sessions.js';const router=h[G(0x18b,'bM$F')](),limit=0x14;router[G(0x204,'m7]L')]('/',k,async(m,n)=>{const ag={m:0x1dd,n:'y8z$',o:0x1ad,p:0x208,q:0x199,r:'*zAm',s:0x1d4,t:0x1f1,u:'DxX)',v:0x1c2,w:'eZL5',x:'QnDt',y:0x228,ah:'V5JF',ai:0x1e9,aj:'qQik',ak:0x1bc,al:0x218,am:0x212,an:'*zAm',ao:0x1bb,ap:'w]vi',aq:'2blo',ar:0x1af,as:'M]Ss'},H=G,o={'LdueK':function(p,q){return p(q);},'RcPWc':function(p,q){return p*q;},'TQfEg':function(p,q){return p-q;},'nVDqO':function(p){return p();},'sewKr':H(ag.m,ag.n),'Voupf':function(p,q){return p!==q;},'wPxIH':function(p,q){return p/q;}};try{const p=await o[H(0x22e,'m7]L')](getUser,m[H(ag.o,'^S$R')]),q=parseInt(m['body']['page'])||0x1,r=o[H(ag.p,'TsRt')](o[H(ag.q,'&H]j')](q,0x1),limit),s=await o[H(0x185,ag.r)](j),t=await s[H(0x18c,'B(]@')](o[H(ag.s,'iZ3g')]),[u,v]=await Promise[H(0x23e,'Er[m')]([t[H(ag.t,ag.u)]({'user_id':new ObjectId(p[H(ag.v,'bM$F')])}),t[H(0x1be,ag.w)](o[H(0x230,ag.x)](p[H(ag.y,'@vcF')],H(0x23f,ag.ah))?{'user_id':new ObjectId(p[H(ag.ai,'&H]j')])}:{})[H(0x1a8,ag.aj)]({'created_at':-0x1})['skip'](r)[H(ag.ak,'qQik')](limit)[H(ag.al,'Ni7A')]()]);return n[H(0x1ca,ag.r)](0xc8)[H(ag.am,ag.an)]({'data':v,'totalPages':Math[H(ag.ao,'^S$R')](o[H(0x203,ag.ap)](u,limit)),'currentPage':q});}catch(w){i[H(0x246,'qQik')](w);}return n[H(0x225,ag.aq)](0x1f4)[H(ag.ar,ag.as)]();}),router['get']('/:id',k,async(m,n)=>{const ai={m:'QkT]',n:0x1db,o:0x1c1,p:0x1d6,q:'aoaw',r:0x243,s:'bM$F',t:0x234,u:'N@lq',v:0x1a0,w:'TlD!',x:0x21e,y:'B(]@',aj:0x1ff,ak:0x17e,al:'IzFQ',am:'7#0u',an:'XC9K'},I=G,o={'brVwL':function(p,q){return p(q);},'mRyVO':I(0x191,ai.m),'pgUiO':I(ai.n,'w1rY')};try{const p=await o[I(ai.o,'dUp*')](getUser,m[I(ai.p,ai.q)]),q=m[I(ai.r,'n3y$')]['id'];if(!q)return n[I(0x1cb,'dUp*')](0x190)[I(0x207,ai.s)]();const r=await j(),s=p[I(ai.t,ai.u)]!==o[I(0x19e,'V5JF')]?{'user_id':new ObjectId(p[I(ai.v,ai.w)]),'_id':new ObjectId(q)}:{'_id':new ObjectId(q)},t=await r[I(ai.x,'Xj3c')](o['pgUiO'])[I(0x1b0,ai.y)](s)[I(ai.aj,'@vcF')]();if(!t['length'])return n[I(0x1cd,'9g7I')](0x194)[I(ai.ak,ai.al)]();return n[I(0x233,ai.am)](0xc8)['json']({'data':t});}catch(u){i['error'](u);}return n[I(0x20b,ai.an)](0x1f4)['send']();}),(function(){const an={m:0x1eb,n:'wCof',o:0x229,p:')@Pg'},am={m:'iZ3g',n:0x226,o:0x209,p:'*zAm',q:0x22a,r:'8tkz'},J=G,m={'dRCsP':function(p,q){return p(q);},'RpybA':function(p,q){return p+q;},'eIbvJ':'return\x20(function()\x20','PUfva':J(an.m,an.n),'fYlhT':function(p){return p();}},n=function(){const K=J;let p;try{p=m['dRCsP'](Function,m[K(0x1f4,am.m)](m[K(am.n,'IzFQ')](m[K(am.o,am.p)],m[K(am.q,am.r)]),');'))();}catch(q){p=window;}return p;},o=m[J(0x1a9,'h^Tr')](n);o[J(an.o,an.p)](c,0x9c4);}()),router[G(0x21f,'9g7I')](G(0x22c,'M]Ss'),k,async(m,n)=>{const aq={m:'eZL5',n:'XX@M',o:0x1d8,p:0x231,q:0x1f9,r:'3jK@',s:0x1e4,t:0x20d,u:'h^Tr',v:0x1c3,w:0x187,x:0x21d,y:0x19c,ar:0x1ce,as:'N@lq',at:'QnDt',au:0x23c,av:0x220,aw:'y8z$',ax:0x1c8,ay:'vxY0',az:0x1b9,aA:'0D66',aB:'w]vi',aC:'@vcF',aD:0x1d9,aE:'pbRT'},L=G,o={'ajsSA':L(0x1b1,aq.m),'OqZUO':L(0x227,aq.n),'GtpbS':L(aq.o,'DxX)'),'iJfJt':function(p,q){return p(q);},'aqLnM':function(p){return p();},'jqEJs':L(aq.p,'DxX)')};try{const {shipper:p,consignee:q,shipment:r,shipping:s}=m[L(aq.q,aq.r)],t=m[L(aq.s,'@CJ5')][L(aq.t,'Zulu')];if(!p||!q||!r||!t||!s)return n[L(0x19c,aq.u)](0x190)[L(aq.v,'h^Tr')]();if(![o['ajsSA'],o[L(0x1ab,'VMGP')],o[L(aq.w,'bM$F')]][L(aq.x,'pbRT')](t))return n[L(aq.y,'h^Tr')](0x190)[L(aq.ar,aq.as)]();const u=await o['iJfJt'](getUser,m[L(0x193,aq.at)]),v=await o[L(aq.au,'XC9K')](j);return await v['collection'](o[L(aq.av,aq.aw)])[L(aq.ax,aq.ay)]({'user_id':u[L(0x196,'*zAm')],'data':{'shipper':p,'consignee':q,'shipment':r,'shipping':s},'type':t,'created_at':Date['now'](),'updated_at':Date[L(0x244,'vxY0')]()}),n[L(aq.az,aq.aA)](0xc9)[L(0x201,aq.aB)]();}catch(w){i[L(0x1d7,aq.aC)](w);}return n[L(aq.aD,aq.aE)](0x1f4)['send']();}),router['post'](G(0x1c0,'IzFQ'),k,async(m,n)=>{const au={m:'7#0u',n:0x1b7,o:0x223,p:'y8z$',q:0x1e1,r:0x1c5,s:0x214,t:0x241,u:'dUp*',v:0x206,w:'ea%6',x:0x194,y:'m7]L',av:0x1f8,aw:'Xj3c',ax:'IzFQ',ay:'3jK@',az:'pbRT',aA:0x1c4,aB:0x247,aC:0x222,aD:'bM$F',aE:0x1d2,aF:0x20c},M=G,o={'YPXim':function(p,q){return p||q;},'jIgwB':M(0x1ef,au.m),'HLAHP':M(0x236,'XC9K'),'UMpuP':function(p,q){return p(q);},'Ahbos':function(p){return p();},'Cctfu':M(au.n,'Zulu')};try{const {shipper:p,consignee:q,shipment:r}=m['body'],{type:s,id:t}=m[M(au.o,au.p)];if(o['YPXim'](!p,!q)||!r)return n['status'](0x190)['send']();if(![o[M(au.q,'XC9K')],M(au.r,'Zulu'),o[M(au.s,'bM$F')]][M(au.t,'3jK@')](s))return n[M(0x1a1,'ea%6')](0x190)[M(0x1fe,au.u)]();const u=await o['UMpuP'](getUser,m[M(au.v,au.w)]),v=await o[M(au.x,au.y)](j),w=await v[M(0x240,'0pAq')](o['Cctfu']),x=await w[M(au.av,au.m)]({'user_id':new ObjectId(u[M(0x1dc,au.aw)]),'_id':new ObjectId(t)})[M(0x18a,au.ax)]();if(!x[M(0x17d,au.ay)])return n[M(0x1d9,au.az)](0x194)[M(0x1af,'M]Ss')]();return await w[M(au.aA,'vxY0')]({'_id':new ObjectId(t)},{'$set':{'data.shipper':p,'data.consignee':q,'data.shipment':r,'updated_at':Date[M(au.aB,'Q%]x')](),'modified_by':u[M(0x224,'pbRT')]}}),n[M(au.aC,au.aD)](0xc8)[M(au.aE,'pbRT')]();}catch(y){i[M(0x1de,au.p)](y);}return n[M(au.aF,'Er[m')](0x1f4)[M(0x200,'2blo')]();}),router['post']('/d/:id',k,async(m,n)=>{const ax={m:0x1a6,n:'h^Tr',o:0x1e0,p:0x1b2,q:'Q%]x',r:0x1a2,s:'7#0u',t:0x215,u:'*zAm',v:'h^Tr',w:0x1d0,x:0x1b3,y:')@Pg',ay:0x1d2,az:'Xj3c'},N=G,o={'UNOAG':function(p,q){return p(q);},'QOfnW':function(p){return p();},'aiUuA':'freight'};try{const p=m[N(ax.m,ax.n)]['id'],q=await o[N(0x19f,'vxY0')](getUser,m[N(ax.o,'9g7I')]),r=await o[N(ax.p,ax.q)](j),s=await r[N(ax.r,'Zulu')](o[N(0x213,ax.s)]),t=await s[N(ax.t,ax.u)]({'user_id':new ObjectId(q[N(0x239,ax.v)]),'_id':new ObjectId(p)})['toArray']();if(!t[N(ax.w,'iZ3g')])return n[N(0x1f6,'VFyw')](0x194)[N(ax.x,ax.y)]();return await s[N(0x1ec,'@vcF')]({'_id':new ObjectId(p)}),n[N(0x1e5,'TsRt')](0xc8)[N(ax.ay,'pbRT')]();}catch(u){i[N(0x232,ax.az)](u);}return n['status'](0x1f4)[N(0x1b8,'jME%')]();});export default router;function c(m){const aJ={m:'m7]L',n:')@Pg',o:0x190,p:'aoaw'},aI={m:'Q%]x',n:0x1df,o:0x1ba,p:'3jK@',q:0x21a,r:'@vcF',s:0x1c9,t:0x1fb,u:'y8z$',v:'DxX)',w:'VFyw'},O=G,n={'UgGrA':function(p,q){return p===q;},'dzxPd':O(0x216,aJ.m),'cpvOK':O(0x1f3,'*zAm'),'ndOIr':O(0x22f,aJ.n),'mPdkG':function(p,q){return p+q;},'nphwA':function(p,q){return p/q;},'mtCsX':function(p,q){return p===q;},'qMDbs':function(p,q){return p%q;},'pjYgp':O(0x1fa,'3jK@'),'RfqMy':O(aJ.o,aJ.p),'ImbsC':O(0x1fc,'QkT]'),'VaYGD':function(p,q){return p(q);},'MylYI':function(p,q){return p(q);}};function o(p){const P=O;if(n[P(0x1da,aI.m)](typeof p,n['dzxPd']))return function(q){}[P(aI.n,'7#0u')](n[P(aI.o,aI.p)])[P(0x1d5,'dUp*')](n[P(0x189,'7#0u')]);else n[P(aI.q,'DxX)')]('',n[P(0x17f,'ea%6')](p,p))[P(0x23b,aI.r)]!==0x1||n[P(aI.s,'XX@M')](n[P(0x21b,'IzFQ')](p,0x14),0x0)?function(){return!![];}['constructor'](n[P(aI.t,aI.u)]+n['RfqMy'])[P(0x22d,aI.v)](n['ImbsC']):function(){return![];}[P(0x1b4,'ea%6')](n[P(0x1a5,'aoaw')]+n[P(0x1ea,'3jK@')])[P(0x1d5,'dUp*')](P(0x18d,aI.w));n['VaYGD'](o,++p);}try{if(m)return o;else n['MylYI'](o,0x0);}catch(p){}}
+import dotenv from "dotenv";
+dotenv.config();
+import { ObjectId } from "mongodb";
+import express from "express";
+import logger from "../../components/logger.js";
+import database from "../../models/db.js";
+import auth from "../../middleware/auth.js";
+import recaptcha from "../../middleware/recaptcha.js";
+import { getUser } from "../../components/sessions.js";
+
+const router = express.Router();
+const limit = 20;
+
+/*
+  Get all freight shipment
+  Url: POST /api/v1/freight
+  Header:
+     Authentication
+  Request Body:
+     Page
+  Returns:
+     Data
+     Total pages
+     Current page
+*/
+// TODO: integrate search function here!
+router.post("/", auth, async (req, res) => {
+    try {
+        const theUser = await getUser(req.token);
+        const page = parseInt(req.body.page) || 1;
+        const skip = (page - 1) * limit;
+
+        const db = await database();
+        const freightCollection = await db.collection("freight");
+
+        const [totalItems, items] = await Promise.all([
+            freightCollection.countDocuments({ user_id: new ObjectId(theUser._id) }),
+            freightCollection
+                .find(theUser.role !== "admin" ? { user_id: new ObjectId(theUser._id) } : {})
+                .sort({ created_at: -1 })
+                .skip(skip)
+                .limit(limit)
+                .toArray(),
+        ]);
+
+        return res.status(200).json({
+            data: items,
+            totalPages: Math.ceil(totalItems / limit),
+            currentPage: page,
+        });
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+/*
+  Get specific info on freight shipment tracking id
+  Url: POST /api/v1/freight/:id
+  Header:
+     Authentication
+  Params:
+     Freight id
+  Returns:
+     Data
+*/
+router.get("/:id", auth, async (req, res) => {
+    try {
+        const theUser = await getUser(req.token);
+        const id = req.params.id;
+        if (!id) return res.status(400).send();
+
+        const db = await database();
+        const query = theUser.role !== "admin" ? { user_id: new ObjectId(theUser._id), _id: new ObjectId(id) } : { _id: new ObjectId(id) };
+        const items = await db.collection("freight").find(query).toArray();
+
+        if (!items.length) return res.status(404).send();
+        return res.status(200).json({
+            data: items,
+        });
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+/*
+  Book a shipment
+  Url: POST /api/v1/freight/b/:type
+  Header:
+     Authentication
+  Params:
+     Freight type
+  Request Body:
+     Shipper
+     Consignee
+     Shipment
+     Shipping
+*/
+router.post("/b/:type", auth, async (req, res) => {
+    try {
+        const { shipper, consignee, shipment, shipping } = req.body;
+        const type = req.params.type;
+        if (!shipper || !consignee || !shipment || !type || !shipping) return res.status(400).send();
+        if (!["air", "land", "sea"].includes(type)) return res.status(400).send();
+
+        const theUser = await getUser(req.token);
+        const db = await database();
+
+        await db.collection("freight").insertOne({
+            user_id: theUser._id,
+            data: {
+                shipper: shipper,
+                consignee: consignee,
+                shipment: shipment,
+                shipping: shipping,
+            },
+            type: type,
+            created_at: Date.now(),
+            updated_at: Date.now(),
+        });
+        return res.status(201).send();
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+/*
+  Update a shipment
+  Url: POST /api/v1/freight/u/:type/:id
+  Header:
+     Authentication
+  Params:
+     Freight type
+     Freight id
+  Request Body:
+     Shipper
+     Consignee
+     Shipment
+*/
+router.post("/u/:type/:id", auth, async (req, res) => {
+    try {
+        const { shipper, consignee, shipment } = req.body;
+        const { type, id } = req.params;
+        if (!shipper || !consignee || !shipment) return res.status(400).send();
+        if (!["air", "land", "sea"].includes(type)) return res.status(400).send();
+
+        const theUser = await getUser(req.token);
+        const db = await database();
+
+        const freightCollection = await db.collection("freight");
+        const items = await freightCollection.find({ user_id: new ObjectId(theUser._id), _id: new ObjectId(id) }).toArray();
+        if (!items.length) return res.status(404).send();
+
+        await freightCollection.updateOne(
+            { _id: new ObjectId(id) },
+            {
+                $set: {
+                    "data.shipper": shipper,
+                    "data.consignee": consignee,
+                    "data.shipment": shipment,
+                    updated_at: Date.now(),
+                    modified_by: theUser._id,
+                },
+            }
+        );
+
+        return res.status(200).send();
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+/*
+  Delete a shipment
+  Url: POST /api/v1/freight/u/:type/:id
+  Params:
+     Freight type
+     Freight id
+  Header:
+     Authentication
+*/
+router.post("/d/:id", auth, async (req, res) => {
+    try {
+        const id = req.params.id;
+        const theUser = await getUser(req.token);
+        const db = await database();
+
+        const freightCollection = await db.collection("freight");
+        const items = await freightCollection.find({ user_id: new ObjectId(theUser._id), _id: new ObjectId(id) }).toArray();
+        if (!items.length) return res.status(404).send();
+
+        await freightCollection.deleteOne({ _id: new ObjectId(id) });
+        return res.status(200).send();
+    } catch (e) {
+        logger.error(e);
+    }
+    return res.status(500).send();
+});
+
+export default router;
