@@ -1,1 +1,0 @@
-import"./BfF3Wqld.js";const n=t=>{const r=Math.floor((Date.now()-t)/1e3);return r<60?"now":r<3600?`${Math.floor(r/60)} min`:r<86400?`${Math.floor(r/3600)} hr`:r<31536e3?`${Math.floor(r/86400)} day`:`${Math.floor(r/31536e3)} yr`};export{n as p};
