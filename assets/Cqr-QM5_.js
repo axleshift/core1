@@ -1,1 +1,0 @@
-import{r as e}from"./BfF3Wqld.js";import"./DnfDba0r.js";const s=()=>{e.useEffect(()=>{t()},[]);const t=async()=>{await axios.post("http://142.93.121.73:5051/api/v1/auth/logout",{},{headers:{Authorization:`Bearer ${cookies.get("RCTSESSION")}`}}).then(o=>{cookies.remove("RCTSESSION"),window.location.href="/"}).catch(o=>{console.error(o)})};return null};export{s as default};
