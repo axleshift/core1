@@ -6,8 +6,8 @@ import logger from "../components/logger.js";
 import passwordHash from "../components/password.js";
 
 const data = JSON.parse(fs.readFileSync(import.meta.dirname + "/users.json", "utf8")).docs;
-let dbInstance = null;
 const requiredCollections = ["users", "freight", "sessions", "threats", "otp", "newsletter", "apiToken"];
+let dbInstance;
 
 const db = async () => {
     if (dbInstance) return dbInstance;
@@ -33,7 +33,7 @@ const db = async () => {
                 let cursor = await collection.find({});
                 let documents = await cursor.toArray();
 
-                if (documents.length != 0) return dbInstance;
+                if (documents.length != 0) return;
 
                 for (const element of data) {
                     element.password = passwordHash(element.password);
