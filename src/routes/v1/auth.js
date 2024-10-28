@@ -153,15 +153,17 @@ router.post('/user', [auth, recaptcha], async function (req, res, next) {
 
         const db = await database()
         const usersCollection = db.collection('users')
-        const existingUser = await usersCollection.findOne({
-            $or: [
-                { [`oauth2.google.email`]: email },
-                { [`oauth2.github.email`]: email },
-                { email: email },
-            ],
-        })
-        if (existingUser)
-            return res.status(200).json({ error: 'The email address is already used' })
+        if (email) {
+            const existingUser = await usersCollection.findOne({
+                $or: [
+                    { [`oauth2.google.email`]: email },
+                    { [`oauth2.github.email`]: email },
+                    { email: email },
+                ],
+            })
+            if (existingUser)
+                return res.status(200).json({ error: 'The email address is already used' })
+        }
 
         await usersCollection.updateOne(
             { _id: new ObjectId(req.user._id) },
@@ -301,26 +303,7 @@ router.get('/token', auth, async function (req, res, next) {
     try {
         const db = await database()
         const apiToken = await db.collection('apiToken').findOne({ user_id: req.user._id })
-        return res.status(200).json({ token: apiToken.token })
-    } catch (e) {
-        logger.error(e)
-    }
-    return res.status(500).send()
-})
-
-/*
-  Url: POST /api/v1/auth/token/whitelist-ip
-  Header:
-     Authentication
-  Request Body:
-     Otp
-     Recaptcha ref
-*/
-router.get('/token/whitelist-ip', [auth, recaptcha], async function (req, res, next) {
-    try {
-        const db = await database()
-        const apiToken = await db.collection('apiToken').findOne({ user_id: req.user._id })
-        return res.status(200).json({ token: apiToken.token })
+        return res.status(200).json({ token: apiToken.token, whitelist_ip: apiToken.whitelist_ip })
     } catch (e) {
         logger.error(e)
     }
