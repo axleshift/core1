@@ -1,1 +1,0 @@
-import"./D3kDgYDB.js";const n=t=>{const o=Math.floor((Date.now()-t)/1e3);return o<60?"now":o<3600?`${Math.floor(o/60)} min`:o<86400?`${Math.floor(o/3600)} hr`:o<2592e3?`${Math.floor(o/86400)} day`:o<31536e3?`${Math.floor(o/2592e3)} mo`:`${Math.floor(o/31536e3)} yr`};export{n as p};

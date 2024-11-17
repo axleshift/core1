@@ -1,1 +1,0 @@
-import"./BT8GUUf_.js";import{i as E,g as _}from"./tEDvo0RF.js";import{e as I,f as A,g as a,h as P,i as e,j as s,k as t}from"./B1KJEzUT.js";const i={apiKey:I,authDomain:A,projectId:a,storageBucket:P,messagingSenderId:e,appId:s,measurementId:t},o=E(i);let T=_(o);export{T as d};
