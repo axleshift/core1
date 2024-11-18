@@ -1,1 +1,0 @@
-import{r as t}from"./kqbr3HuW.js";import{d as r}from"./DFarnK1O.js";import"./BgRKNlhe.js";import"./uhX4GmSj.js";const s=()=>{const s=r(),e=new URLSearchParams(window.location.search),o=e.get("q")?e.get("q"):"";return t.useEffect((()=>{/^[a-fA-F0-9]{24}$/.test(o)&&s(`/track/${o}`)}),[]),""};export{s as default};
