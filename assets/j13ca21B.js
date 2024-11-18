@@ -1,0 +1,1 @@
+import{j as e}from"./kqbr3HuW.js";import{d as t}from"./DFarnK1O.js";import"./BgRKNlhe.js";import"./uhX4GmSj.js";const o=()=>{t();const o=new URLSearchParams(window.location.search);return o.get("q")&&o.get("q"),e.jsx("div",{className:"d-flex flex-row justify-content-center",children:"There is nothing here in the moment, still working on it..."})};export{o as default};
