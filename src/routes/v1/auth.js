@@ -245,7 +245,7 @@ router.post('/verify/otp/new', [recaptcha, auth], async function (req, res, next
 */
 router.post('/verify/otp', [recaptcha, auth], async function (req, res, next) {
     try {
-        const otp = req.body.otp
+        const otp = req.body.otp.toString()
         if (!otp) return res.status(400).send()
 
         const db = await database()
@@ -262,13 +262,8 @@ router.post('/verify/otp', [recaptcha, auth], async function (req, res, next) {
             if (Date.now() - past > ten) return res.status(200).json({ error: 'Expired OTP' })
         }
 
-        try {
-            if (theOtp.code !== parseInt(otp)) return res.status(200).json({ error: 'Invalid OTP' })
-        } catch (e) {
-            return res
-                .status(200)
-                .json({ error: 'Oh come on, you knew it needs to be integer right?' })
-        }
+        if (theOtp.code !== parseInt(otp.replace(/[^0-9]/g, '')))
+            return res.status(200).json({ error: 'Invalid OTP' })
 
         // mark the otp
         await Promise.all([
