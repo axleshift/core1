@@ -1,1 +1,0 @@
-import"./kqbr3HuW.js";const r=r=>{const o=Math.floor((Date.now()-r)/1e3);if(o<60)return"now";if(o<3600){return`${Math.floor(o/60)} min`}if(o<86400){return`${Math.floor(o/3600)} hr`}if(o<2592e3){return`${Math.floor(o/86400)} day`}if(o<31536e3){return`${Math.floor(o/2592e3)} mo`}return`${Math.floor(o/31536e3)} yr`};export{r as p};
