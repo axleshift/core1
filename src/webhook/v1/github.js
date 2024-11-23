@@ -13,7 +13,7 @@ const router = express.Router()
 
 router.post('/github', async (req, res) => {
     try {
-        if (!(await webhooks.verify(req.body.toString(), req.headers['X-Hub-Signature-256'])))
+        if (!(await webhooks.verify(req.body.toString(), req.headers['x-hub-signature-256'])))
             return res.status(401).send()
 
         if (req.body.ref === 'refs/heads/core1-backend')
