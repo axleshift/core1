@@ -4,23 +4,9 @@ import database from '../../models/mongodb.js'
 import { getClientIp } from '../ip.js'
 import { API_EXTERNAL_RATE_DELAY } from '../../config.js'
 
-const allowedRoutes = ['/', '/:id']
-
 const external = async (req, res, next) => {
     const authHeader = req.headers['authorization']
     const token = authHeader.split(' ')[1]
-
-    const requestPath = req.path
-    const isAllowed = allowedRoutes.some((route) => {
-        if (route === requestPath) return true
-        const regex = new RegExp(`^${route.replace(/:\w+/, '\\w+')}$`)
-        return regex.test(requestPath)
-    })
-
-    if (!isAllowed)
-        return res
-            .status(401)
-            .json({ error: 'Unauthorized', message: `access denied to route: ${requestPath}` })
 
     const db = await database()
     const apiTokenCollection = db.collection('apiToken')
