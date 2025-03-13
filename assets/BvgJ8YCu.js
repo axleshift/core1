@@ -1,1 +1,0 @@
-import"./Lx7QmpHl.js";import{i as a,g as s}from"./BOxxr-d9.js";import{g as e,h as m,i as r,j as t,k as o,l as i,m as p}from"./maZWjEtr.js";let d=s(a({apiKey:e,authDomain:m,projectId:r,storageBucket:t,messagingSenderId:o,appId:i,measurementId:p}));export{d};
