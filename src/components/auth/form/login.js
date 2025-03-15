@@ -53,7 +53,6 @@ const FormLogin = async (req, res) => {
 
         return res.status(200).json({
             token: session_token,
-            key,
         })
     } catch (err) {
         logger.error(err)
