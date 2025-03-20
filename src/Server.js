@@ -10,7 +10,6 @@ import { createProxyMiddleware } from 'http-proxy-middleware'
 import Quotes from 'inspirational-quotes'
 import { NODE_ENV, EXT_EXPRESS_PORT, EXT_EXPRESS_PORT_1 } from './config.js'
 import rateLimiter from './middleware/rateLimiter.js'
-import sanitize from './middleware/sanitize.js'
 import logger from './utils/logger.js'
 import APIv1 from './routes/v1/index.js'
 import Webhookv1 from './webhook/v1/index.js'
@@ -21,17 +20,6 @@ import { getClientIp } from './components/ip.js'
 const app = express()
 const upload = multer()
 
-app.use(cors())
-app.use(compression())
-app.use(
-    mongoSanitize({
-        onSanitize: ({ req, key }) => {
-            logger.warn(`this request[${key}] is sanitized`)
-            logger.warn(req)
-        },
-    }),
-)
-app.use(sanitize)
 app.use(
     helmet({
         contentSecurityPolicy: {
@@ -42,8 +30,11 @@ app.use(
         },
     }),
 )
-app.use(upload.none())
+app.use(cors())
 app.use(express.json())
+app.use(upload.none())
+app.use(mongoSanitize())
+app.use(compression())
 app.use(rateLimiter)
 app.use(pinoHttp({ logger }))
 
