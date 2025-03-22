@@ -1,1 +1,0 @@
-import{j as s}from"./B29SdWEC.js";import"./Crdnh4fn.js";import{P as t}from"./E8MUDNEF.js";import"./ucIcx5RQ.js";const i=({data:t})=>s.jsx("div",{id:"forms",children:"this is a test"});i.propTypes={data:t.object.isRequired};export{i as default};
