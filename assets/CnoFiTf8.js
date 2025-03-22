@@ -1,0 +1,1 @@
+import"./BQRwqC_R.js";import{g as a,i as s}from"./CvTj7SuE.js";import{g as e,h as m,i as r,j as t,k as o,l as i,m as p}from"./DM7e1kiA.js";let d=a(s({apiKey:p,authDomain:i,projectId:o,storageBucket:t,messagingSenderId:r,appId:m,measurementId:e}));export{d};
