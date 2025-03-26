@@ -56,7 +56,7 @@ const internal = async (req, res, next) => {
     const token = authHeader.split(' ')[1]
 
     const session = await getSession(req, token)
-    if (!session || !session.active) return res.status(401).json({ error: 'Unauthorized' })
+    if (!session) return res.status(401).json({ error: 'Unauthorized' })
 
     const theUser = await getUser(session, token)
     if (
@@ -77,7 +77,7 @@ const internal = async (req, res, next) => {
     req.user = theUser
     req.session = session
 
-    if (!theUser.email_verify_at) {
+    if (session.active !== true || !theUser.email_verify_at) {
         if (req.path === '/otp' || req.path === '/otp/new') return next()
         const theOtp = await getCache(`user-id-${req.user._id.toString()}`)
         if (!theOtp) sendOTP(req)
