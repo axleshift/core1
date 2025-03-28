@@ -134,6 +134,7 @@ router.post('/book', [recaptcha, auth, shipmentForm], async (req, res, next) => 
 
         const db = await database()
         const dateNow = Date.now()
+        const trackingNumber = `${to[0].country_code}-${Date.now().toString()}`
         const shipmentWeight = totalWeight(items)
         const numberOfItems = items.length
         const shipmentPrice = price(items)
@@ -163,6 +164,7 @@ router.post('/book', [recaptcha, auth, shipmentForm], async (req, res, next) => 
             expected_delivery_date: expectedDelivery.getTime(),
             country: country,
             session_id: req.session._id,
+            tracking_number: trackingNumber,
             selected_address: selected_address,
             created_at: dateNow,
             updated_at: dateNow,
@@ -170,7 +172,7 @@ router.post('/book', [recaptcha, auth, shipmentForm], async (req, res, next) => 
         send(
             {
                 to: req.user.email,
-                subject: `Shipment has been created`,
+                subject: `${trackingNumber} | Shipment has been created`,
                 text: `We have arranged your shipment schedules please proceed to payment so we can processed your shipment as soon as possible.<br><br>If you need assistance feel free to contact us.`,
             },
             req.user.first_name,
@@ -178,9 +180,11 @@ router.post('/book', [recaptcha, auth, shipmentForm], async (req, res, next) => 
         activity(req, `created a shipment`)
         sendNotification(req, {
             title: 'Shipment Created',
-            message: `We have arranged your shipment schedules please proceed to payment so we can processed your shipment as soon as possible.`,
+            message: `Shipment has been created with tracking number ${trackingNumber}.`,
         })
-        return res.status(201).json({ message: 'Shipment has been created.' })
+        return res
+            .status(201)
+            .json({ tracking_number: trackingNumber, message: 'Shipment has been created.' })
     } catch (e) {
         logger.error(e)
     }
@@ -228,12 +232,7 @@ router.post('/update/:id', [recaptcha, auth, freight, shipmentForm], async (req,
 
         const db = await database()
         await db.collection('freight').updateOne(
-            {
-                $or: [
-                    { _id: ObjectId.isValid(id) ? new ObjectId(id) : null },
-                    { tracking_number: id },
-                ],
-            },
+            { tracking_number: id },
             {
                 $set: {
                     is_import: is_import,
