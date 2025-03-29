@@ -144,47 +144,49 @@ router.post('/book', [recaptcha, auth, shipmentForm], async (req, res, next) => 
         // and draw a estimated route
         const expectedDelivery = new Date(dateNow + 3 * 24 * 60 * 60 * 1000)
 
-        await db.collection('freight').insertOne({
-            user_id: req.user._id,
-            is_import: is_import,
-            is_residential_address: is_residential_address,
-            contains_danger_goods: contains_danger_goods,
-            contains_documents: contains_documents,
-            from: from,
-            to: to,
-            type: type,
-            items: items,
-            status: 'to_pay',
-            courier: 'none',
-            total_weight: shipmentWeight,
-            number_of_items: numberOfItems,
-            amount: {
-                currency: 'PHP',
-                value: shipmentPrice,
-            },
-            expected_delivery_date: expectedDelivery.getTime(),
-            country: country,
-            session_id: req.session._id,
-            tracking_number: trackingNumber,
-            selected_address: selected_address,
-            created_at: dateNow,
-            updated_at: dateNow,
-        })
-        send(
-            {
-                to: req.user.email,
-                subject: `${trackingNumber} | Shipment has been created`,
-                text: `We have arranged your shipment schedules please proceed to payment so we can processed your shipment as soon as possible.<br><br>If you need assistance feel free to contact us.`,
-            },
-            req.user.first_name,
-        )
-        activity(req, `created a shipment`)
-        sendNotification(req, {
-            title: 'Shipment Created',
-            message: `Shipment has been created with tracking number ${trackingNumber}.`,
-        })
-
-        return await InvoiceGenerator(res, req, trackingNumber)
+        const [freightObject, mail, log, notif, invoice] = await Promise.all([
+            db.collection('freight').insertOne({
+                user_id: req.user._id,
+                is_import: is_import,
+                is_residential_address: is_residential_address,
+                contains_danger_goods: contains_danger_goods,
+                contains_documents: contains_documents,
+                from: from,
+                to: to,
+                type: type,
+                items: items,
+                status: 'to_pay',
+                courier: 'none',
+                total_weight: shipmentWeight,
+                number_of_items: numberOfItems,
+                amount: {
+                    currency: 'PHP',
+                    value: shipmentPrice,
+                },
+                expected_delivery_date: expectedDelivery.getTime(),
+                country: country,
+                session_id: req.session._id,
+                tracking_number: trackingNumber,
+                selected_address: selected_address,
+                created_at: dateNow,
+                updated_at: dateNow,
+            }),
+            send(
+                {
+                    to: req.user.email,
+                    subject: `${trackingNumber} | Shipment has been created`,
+                    text: `We have arranged your shipment schedules please proceed to payment so we can processed your shipment as soon as possible.<br><br>If you need assistance feel free to contact us.`,
+                },
+                req.user.first_name,
+            ),
+            activity(req, `created a shipment`),
+            sendNotification(req, {
+                title: 'Shipment Created',
+                message: `Shipment has been created with tracking number ${trackingNumber}.`,
+            }),
+            InvoiceGenerator(res, req, trackingNumber),
+        ])
+        return invoice
     } catch (e) {
         logger.error(e)
     }
@@ -230,35 +232,40 @@ router.post('/update/:id', [recaptcha, auth, freight, shipmentForm], async (req,
             expectedDelivery.setHours(expectedDelivery.getHours() + 12)
         }
 
-        const db = await database()
-        await db.collection('freight').updateOne(
-            { tracking_number: id },
-            {
-                $set: {
-                    is_import: is_import,
-                    is_residential_address: is_residential_address,
-                    contains_danger_goods: contains_danger_goods,
-                    contains_documents: contains_documents,
-                    from: from,
-                    to: to,
-                    type: type,
-                    items: items,
-                    total_weight: shipmentWeight,
-                    number_of_items: numberOfItems,
-                    amount: {
-                        currency: 'PHP',
-                        value: shipmentPrice,
+        const [freightObject, log, invoice] = await Promise.all([
+            (async () => {
+                const db = await database()
+                await db.collection('freight').updateOne(
+                    { tracking_number: id },
+                    {
+                        $set: {
+                            is_import: is_import,
+                            is_residential_address: is_residential_address,
+                            contains_danger_goods: contains_danger_goods,
+                            contains_documents: contains_documents,
+                            from: from,
+                            to: to,
+                            type: type,
+                            items: items,
+                            total_weight: shipmentWeight,
+                            number_of_items: numberOfItems,
+                            amount: {
+                                currency: 'PHP',
+                                value: shipmentPrice,
+                            },
+                            expected_delivery_date: expectedDelivery.getTime(),
+                            country: countryTo,
+                            selected_address: selected_address,
+                            updated_at: Date.now(),
+                        },
                     },
-                    expected_delivery_date: expectedDelivery.getTime(),
-                    country: countryTo,
-                    selected_address: selected_address,
-                    updated_at: Date.now(),
-                },
-            },
-        )
+                )
+            })(),
+            activity(req, `updated a shipment information #${id}`),
+            InvoiceGenerator(res, req, id),
+        ])
 
-        activity(req, `updated a shipment information #${id}`)
-        return await InvoiceGenerator(res, req, id)
+        return invoice
     } catch (e) {
         logger.error(e)
     }
