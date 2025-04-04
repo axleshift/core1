@@ -9,7 +9,9 @@ router.get('/:type', auth, async (req, res) => {
     const { type } = req.params
     if (
         !type ||
-        !['cancelled', 'to_pay', 'to_ship', 'to_receive', 'received', 'PAID'].includes(type)
+        !['cancelled', 'to_pay', 'to_ship', 'to_receive', 'received', 'PAID', 'EXPIRED'].includes(
+            type,
+        )
     )
         return res.status(400).json({ error: 'Invalid request' })
 
@@ -31,6 +33,7 @@ router.get('/:type', auth, async (req, res) => {
                         created_at: 1,
                         to: 1,
                         amount: 1,
+                        currency: 1,
                     },
                 },
             )
