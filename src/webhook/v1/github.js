@@ -4,6 +4,8 @@ import database from '../../models/mongodb.js'
 import logger from '../../utils/logger.js'
 import { GITHUB_WEBHOOK_SECRET } from '../../config.js'
 import { run } from '../../utils/cmd.js'
+import { send } from '../../components/mail.js'
+import { execSync } from 'child_process'
 
 const router = express.Router()
 
@@ -12,6 +14,7 @@ const notify = async () => {
     const admins = await db
         .collection('users')
         .find({ role: 'super_admin' }, { projection: { email: 1 } })
+        .toArray()
     if (!admins) return
     let commitHash = 'N/A'
     let branchName = 'N/A'
