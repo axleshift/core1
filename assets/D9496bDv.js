@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 /*!
  * html2canvas 1.4.1 <https://html2canvas.hertzen.com>
  * Copyright (c) 2022 Niklas von Hertzen <https://hertzen.com>

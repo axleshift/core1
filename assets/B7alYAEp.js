@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 import{r as e,b as t}from"./CbKKHx2O.js";import"./BKrKJ3DW.js";import{u as n,a,D as i,N as r,b as o,c as s,d as l,R as c}from"./CXjkhZnE.js";import{s as u,i as f,b as v,c as h,d as p}from"./BIw_sdFo.js";
 /**
  * React Router DOM v6.27.0

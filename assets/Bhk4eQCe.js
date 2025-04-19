@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 import{g as M}from"./D9QqU1Un.js";import{r as z}from"./D0tS-yl6.js";var b,p={exports:{}},O={exports:{}},A=O.exports;function c(){return b||(b=1,
 //! moment-timezone.js
 //! version : 0.5.47

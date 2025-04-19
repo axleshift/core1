@@ -1,4 +1,8 @@
 /**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
+/**
  * @remix-run/router v1.20.0
  *
  * Copyright (c) Remix Software Inc.

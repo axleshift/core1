@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 import{m as t,j as e,b as n,s as r,p as i,a as h,c as s}from"./BF0CFBFR.js";const o=t,a=new i.Planet(o),c=h.meanLunarMonth/2,m=180/Math.PI,l=new e.CalendarGregorian(-2636,2,15).toJDE();
 /**
  * @copyright 2016 commenthol

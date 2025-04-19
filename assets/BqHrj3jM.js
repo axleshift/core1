@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 /*!
  * @kurkle/color v0.3.2
  * https://github.com/kurkle/color#readme

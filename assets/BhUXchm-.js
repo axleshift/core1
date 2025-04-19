@@ -1,3 +1,7 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
 import{F as t,g as e,E as n,b as r,U as o}from"./D9QqU1Un.js";
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
