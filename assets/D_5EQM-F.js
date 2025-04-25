@@ -1,0 +1,5 @@
+/**
+ * © 2025 Melvin Jones Repol & its contributors . All rights reserved.
+ * This project is licensed under the MIT License with Commons Clause.
+*/
+import{r as s}from"./CbKKHx2O.js";import"./MsAp6LRD.js";import"./uLJQ4tui.js";import"./7-EX5B77.js";import{d as t}from"./CXjkhZnE.js";import"./D9QqU1Un.js";import"./z-cSZRUs.js";import"./BIw_sdFo.js";import"./DylAs1sT.js";import"./yJGO6Amu.js";import"./BKrKJ3DW.js";import"./BFk34ZWe.js";import"./U6rf_yqH.js";import"./D68gzNyG.js";import"./6thM_Rat.js";import"./BsZLDNo0.js";import"./CAJYX4M0.js";import"./Bhaa8ZPc.js";import"./K-dupnmX.js";import"./B7alYAEp.js";import"./DP3P1EsK.js";import"./C3hrCPXF.js";import"./Dw0KO6EP.js";import"./CzGuHLZU.js";import"./B8Let_61.js";import"./CPqRiR-E.js";import"./y9pk00oJ.js";import"./CTpwok2W.js";import"./DYPlXUME.js";import"./BqHrj3jM.js";import"./fZjk1EK6.js";import"./BXEMiIsG.js";import"./Bb7MnDjl.js";import"./CA9thugF.js";import"./BPjVUy-D.js";const r=()=>{const r=t();return s.useEffect((()=>{r("/security/management")}),[]),""};export{r as default};
