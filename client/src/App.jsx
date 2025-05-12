@@ -9,9 +9,10 @@ import { VITE_APP_NODE_ENV, VITE_APP_GOOGLE_ANALYTICS } from './config'
 import { initGA, trackPageview } from './analytics'
 import './scss/style.scss'
 import AppErrorBoundary from './components/AppErrorBoundary'
-import Analytics from './components/middleware/Analytics'
-import DocumentTitle from './components/middleware/DocumentTitle'
-import IdleTimeout from './components/middleware/IdleTimeout'
+import Analytics from './components/AppAnalytics'
+import DocumentTitle from './components/AppDocumentTitle'
+import IdleTimeout from './components/AppIdleTimeout'
+import Auth from './components/AppAuth'
 import routes from './routes'
 import steps from './steps'
 import './bootstrap'
@@ -94,7 +95,9 @@ const App = () => {
                                                 )
                                             )
                                         })}
-                                        <Route path="*" element={<DefaultLayout />} />
+                                        <Route element={<Auth />}>
+                                            <Route path="*" element={<DefaultLayout />} />
+                                        </Route>
                                     </Routes>
                                 </IdleTimeout>
                             </DocumentTitle>
