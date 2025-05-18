@@ -4,6 +4,13 @@
 [![Dependabot Updates](https://github.com/axleshift/core1/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/axleshift/core1/actions/workflows/dependabot/dependabot-updates)
 [![Terraform CI](https://github.com/axleshift/core1/actions/workflows/terraform.yml/badge.svg)](https://github.com/axleshift/core1/actions/workflows/terraform.yml)
 
+> **⚠️ This project is no longer maintained.**
+>
+> The new home for this project is [GitHub](https://github.com/mrepol742/axleshift-core1).
+> Please refer to the new repository for updates and continued development.
+> 
+> Thank you.
+
 ## Pre-requisites
 - Node.js v23.^
 - Mongodb v8^
